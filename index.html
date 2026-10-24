@@ -1,0 +1,3479 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title id="meta-title">Royal N.J Hotel &amp; Resort | New Borg El Arab, Alexandria</title>
+  <meta id="meta-desc" name="description" content="Experience calm royal hospitality at Royal N.J Hotel & Resort in New Borg El Arab City, Alexandria Governorate, Egypt. Book directly via WhatsApp or phone.">
+  <meta name="theme-color" content="#14352a">
+
+  <!-- Hreflang SEO Hints -->
+  <link rel="alternate" hreflang="en" href="?lang=en">
+  <link rel="alternate" hreflang="ar" href="?lang=ar">
+  <link rel="alternate" hreflang="x-default" href="?lang=en">
+
+  <!-- Open Graph Tags -->
+  <meta property="og:type" content="website">
+  <meta id="og-title" property="og:title" content="Royal N.J Hotel & Resort | New Borg El Arab, Alexandria">
+  <meta id="og-desc" property="og:description" content="Quiet luxury, refined comfort, and warm Egyptian hospitality in New Borg El Arab City.">
+  <meta property="og:image" content="https://files.catbox.moe/9u1vpy.jpg">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="ar_EG">
+
+  <!-- Google Fonts: Cormorant Garamond & Manrope (EN), Amiri & Cairo (AR) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cairo:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Schema.org Hotel Structured Data (Strict factual details only) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Hotel",
+    "name": "Royal N.J Hotel & Resort",
+    "telephone": "+20 127 107 2843",
+    "image": [
+      "https://files.catbox.moe/9u1vpy.jpg",
+      "https://files.catbox.moe/t2h8l3.jpg",
+      "https://files.catbox.moe/e8575t.jpg"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Hod Sakrah WA Abu Hamad, New Borg El Arab City",
+      "addressLocality": "Borg El Arab",
+      "addressRegion": "Alexandria Governorate",
+      "postalCode": "5221570",
+      "addressCountry": "EG"
+    }
+  }
+  </script>
+
+  <style>
+    /* ==========================================================================
+       1. DESIGN TOKENS & VARIABLES (Strict Palette)
+       ========================================================================== */
+    :root {
+      /* Brand Palette */
+      --green-deep: #14352a;
+      --green-darker: #0c211a;
+      --green-ink: #10231c;
+      --gold: #c9a24b;
+      --gold-light: #e3c777;
+      --milk: #faf7f0;
+      --milk-soft: rgba(250, 247, 240, 0.84);
+      --milk-muted: rgba(250, 247, 240, 0.65);
+
+      /* Translucent & Surface Tokens */
+      --glass-green: rgba(20, 53, 42, 0.82);
+      --glass-card-dark: rgba(16, 35, 28, 0.72);
+      --surface-card-light: rgba(250, 247, 240, 0.95);
+      --gold-border: rgba(201, 162, 75, 0.28);
+      --gold-border-strong: rgba(201, 162, 75, 0.55);
+      --gold-glow: rgba(201, 162, 75, 0.28);
+      --gold-tint: rgba(201, 162, 75, 0.09);
+      --green-placeholder: #1c3f33;
+
+      /* Gradients */
+      --grad-dark: linear-gradient(165deg, var(--green-deep) 0%, var(--green-darker) 100%);
+      --grad-gold: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 50%, var(--gold) 100%);
+      --grad-hero-overlay: linear-gradient(
+        180deg,
+        rgba(12, 33, 26, 0.72) 0%,
+        rgba(20, 53, 42, 0.54) 45%,
+        rgba(12, 33, 26, 0.88) 100%
+      );
+
+      /* Typography */
+      --font-heading-en: 'Cormorant Garamond', Georgia, serif;
+      --font-body-en: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-heading-ar: 'Amiri', Georgia, serif;
+      --font-body-ar: 'Cairo', sans-serif;
+
+      --font-heading: var(--font-heading-en);
+      --font-body: var(--font-body-en);
+
+      /* Layout & Radii */
+      --radius-sm: 14px;
+      --radius-md: 20px;
+      --radius-lg: 28px;
+      --radius-pill: 999px;
+      --container-max: 1240px;
+      --header-h: 82px;
+
+      /* Motion & Shadows */
+      --ease-silk: cubic-bezier(0.2, 0.8, 0.2, 1);
+      --dur-fast: 320ms;
+      --dur-med: 650ms;
+      --dur-slow: 1100ms;
+      --shadow-soft: 0 20px 50px rgba(16, 35, 28, 0.08);
+      --shadow-elevated: 0 24px 60px rgba(12, 33, 26, 0.24);
+      --shadow-gold: 0 10px 28px rgba(201, 162, 75, 0.25);
+    }
+
+    /* RTL Language Overrides */
+    html[dir="rtl"] {
+      --font-heading: var(--font-heading-ar);
+      --font-body: var(--font-body-ar);
+    }
+
+    /* ==========================================================================
+       2. RESET & BASE STYLES
+       ========================================================================== */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: var(--header-h);
+      background-color: var(--milk);
+      color: var(--green-ink);
+      font-family: var(--font-body);
+      font-size: 16px;
+      line-height: 1.68;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      overflow-x: clip;
+    }
+
+    html[dir="rtl"] {
+      line-height: 1.85;
+    }
+
+    body {
+      background-color: var(--milk);
+      color: var(--green-ink);
+      overflow-x: clip;
+      min-height: 100vh;
+    }
+
+    body.menu-open,
+    body.lightbox-open {
+      overflow: hidden;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      transition: color var(--dur-fast) var(--ease-silk), opacity var(--dur-fast) var(--ease-silk);
+    }
+
+    button, input, select, textarea {
+      font: inherit;
+      color: inherit;
+      background: none;
+      border: none;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    /* Visible Keyboard Focus */
+    :focus-visible {
+      outline: 2px solid var(--gold);
+      outline-offset: 3px;
+    }
+
+    /* Skip Link */
+    .skip-link {
+      position: fixed;
+      top: -100px;
+      inset-inline-start: 1rem;
+      z-index: 9999;
+      background: var(--green-deep);
+      color: var(--milk);
+      padding: 0.75rem 1.25rem;
+      border: 1px solid var(--gold);
+      border-radius: var(--radius-sm);
+      font-weight: 600;
+      transition: top var(--dur-fast) var(--ease-silk);
+    }
+
+    .skip-link:focus {
+      top: 1rem;
+    }
+
+    /* Flip Directional Icons in RTL */
+    html[dir="rtl"] .rtl-flip {
+      transform: scaleX(-1);
+    }
+
+    /* ==========================================================================
+       3. TYPOGRAPHY & REUSABLE LAYOUT COMPONENTS
+       ========================================================================== */
+    .container {
+      width: min(100% - 2.5rem, var(--container-max));
+      margin-inline: auto;
+    }
+
+    @media (min-width: 768px) {
+      .container {
+        width: min(100% - 4rem, var(--container-max));
+      }
+    }
+
+    .section {
+      padding-block: clamp(4.5rem, 9vw, 7.5rem);
+      position: relative;
+    }
+
+    .section-dark {
+      background: var(--grad-dark);
+      color: var(--milk);
+    }
+
+    .section-header {
+      max-width: 680px;
+      margin-inline: auto;
+      text-align: center;
+      margin-bottom: clamp(2.75rem, 5.5vw, 4.25rem);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-size: 0.8125rem;
+      text-transform: uppercase;
+      letter-spacing: 0.22em;
+      color: var(--gold);
+      font-weight: 600;
+      margin-bottom: 0.9rem;
+    }
+
+    html[dir="rtl"] .eyebrow {
+      letter-spacing: 0.03em;
+      font-size: 0.92rem;
+    }
+
+    .eyebrow::before,
+    .eyebrow::after {
+      content: "";
+      width: 26px;
+      height: 1px;
+      background: var(--gold);
+      opacity: 0.65;
+    }
+
+    .section-title {
+      font-family: var(--font-heading);
+      font-weight: 500;
+      font-size: clamp(2.15rem, 4.5vw, 3.5rem);
+      line-height: 1.15;
+      letter-spacing: -0.01em;
+      margin-bottom: 1.1rem;
+    }
+
+    html[dir="rtl"] .section-title {
+      line-height: 1.32;
+      letter-spacing: 0;
+    }
+
+    .section-subtitle {
+      font-size: clamp(1rem, 1.4vw, 1.125rem);
+      opacity: 0.84;
+      font-weight: 300;
+    }
+
+    /* Thin Gold Section Divider */
+    .gold-divider {
+      width: 100%;
+      height: 1px;
+      background: linear-gradient(
+        90deg,
+        transparent 0%,
+        rgba(201, 162, 75, 0.42) 50%,
+        transparent 100%
+      );
+      border: 0;
+      margin: 0;
+    }
+
+    /* ==========================================================================
+       4. BUTTONS & INTERACTIVE ELEMENTS
+       ========================================================================== */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.65rem;
+      padding: 0.9rem 1.75rem;
+      border-radius: var(--radius-pill);
+      font-weight: 500;
+      font-size: 0.95rem;
+      letter-spacing: 0.02em;
+      transition:
+        transform var(--dur-fast) var(--ease-silk),
+        box-shadow var(--dur-fast) var(--ease-silk),
+        background-color var(--dur-fast) var(--ease-silk),
+        border-color var(--dur-fast) var(--ease-silk);
+      white-space: nowrap;
+    }
+
+    .btn svg {
+      width: 18px;
+      height: 18px;
+      flex-shrink: 0;
+      transition: transform var(--dur-fast) var(--ease-silk);
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+    }
+
+    .btn-gold {
+      background: var(--grad-gold);
+      color: var(--green-ink);
+      font-weight: 600;
+      box-shadow: 0 6px 20px rgba(201, 162, 75, 0.22);
+    }
+
+    .btn-gold:hover {
+      box-shadow: var(--shadow-gold);
+    }
+
+    .btn-outline-light {
+      border: 1px solid rgba(250, 247, 240, 0.45);
+      color: var(--milk);
+      background: rgba(20, 53, 42, 0.35);
+      backdrop-filter: blur(8px);
+    }
+
+    .btn-outline-light:hover {
+      border-color: var(--gold);
+      box-shadow: 0 8px 25px rgba(201, 162, 75, 0.18);
+    }
+
+    .btn-outline-gold {
+      border: 1px solid var(--gold);
+      color: var(--green-ink);
+      background: transparent;
+    }
+
+    .section-dark .btn-outline-gold {
+      color: var(--milk);
+    }
+
+    .btn-outline-gold:hover {
+      background: var(--gold-tint);
+      box-shadow: 0 8px 24px rgba(201, 162, 75, 0.16);
+    }
+
+    /* Soft Green-Tinted Image Shell & Lazy Fade-In */
+    .img-shell {
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(135deg, var(--green-deep) 0%, var(--green-placeholder) 100%);
+      border-radius: var(--radius-md);
+    }
+
+    .img-shell::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at center, rgba(201, 162, 75, 0.12), transparent 70%);
+      z-index: 0;
+    }
+
+    .img-shell img {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0;
+      transition:
+        opacity var(--dur-med) var(--ease-silk),
+        transform var(--dur-slow) var(--ease-silk);
+    }
+
+    .img-shell img.is-loaded {
+      opacity: 1;
+    }
+
+    /* Scroll Reveal Animations */
+    .reveal {
+      opacity: 0;
+      transform: translateY(28px);
+      transition:
+        opacity var(--dur-slow) var(--ease-silk),
+        transform var(--dur-slow) var(--ease-silk);
+    }
+
+    .reveal.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ==========================================================================
+       5. STICKY GLASS HEADER & MOBILE NAVIGATION
+       ========================================================================== */
+    .site-header {
+      position: fixed;
+      top: 0;
+      inset-inline: 0;
+      height: var(--header-h);
+      z-index: 1000;
+      background: var(--glass-green);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--gold-border);
+      transition: background-color var(--dur-fast) var(--ease-silk), box-shadow var(--dur-fast) var(--ease-silk);
+    }
+
+    .site-header.is-scrolled {
+      background: rgba(12, 33, 26, 0.92);
+      box-shadow: 0 10px 34px rgba(12, 33, 26, 0.32);
+    }
+
+    .header-inner {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    /* Logo & Fallback Wordmark */
+    .brand-logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.75rem;
+      color: var(--gold);
+      z-index: 1002;
+    }
+
+    .brand-logo img {
+      height: 52px;
+      width: auto;
+      max-width: 180px;
+      object-fit: contain;
+      border-radius: 6px;
+    }
+
+    .logo-fallback {
+      display: none;
+      flex-direction: column;
+      line-height: 1.05;
+      text-align: start;
+    }
+
+    .logo-fallback-main {
+      font-family: var(--font-heading-en);
+      font-size: 1.55rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      color: var(--gold);
+    }
+
+    .logo-fallback-sub {
+      font-family: var(--font-body-en);
+      font-size: 0.62rem;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      color: var(--gold-light);
+      margin-top: 2px;
+    }
+
+    /* Desktop Nav */
+    .desktop-nav {
+      display: none;
+    }
+
+    @media (min-width: 1024px) {
+      .desktop-nav {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+      }
+    }
+
+    .nav-link {
+      color: var(--milk);
+      font-size: 0.92rem;
+      font-weight: 400;
+      position: relative;
+      padding-block: 0.35rem;
+      opacity: 0.9;
+    }
+
+    .nav-link::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      inset-inline-start: 0;
+      width: 100%;
+      height: 1px;
+      background: var(--gold);
+      transform: scaleX(0);
+      transform-origin: center;
+      transition: transform var(--dur-fast) var(--ease-silk);
+    }
+
+    .nav-link:hover {
+      color: var(--gold-light);
+      opacity: 1;
+    }
+
+    .nav-link:hover::after {
+      transform: scaleX(1);
+    }
+
+    /* Header Actions */
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      z-index: 1002;
+    }
+
+    .lang-switcher {
+      display: inline-flex;
+      align-items: center;
+      border: 1px solid var(--gold-border);
+      border-radius: var(--radius-pill);
+      padding: 0.25rem 0.35rem;
+      background: rgba(12, 33, 26, 0.45);
+      color: var(--milk);
+      font-size: 0.82rem;
+    }
+
+    .lang-btn {
+      padding: 0.3rem 0.65rem;
+      border-radius: var(--radius-pill);
+      color: var(--milk-muted);
+      font-weight: 500;
+      transition: all var(--dur-fast) var(--ease-silk);
+    }
+
+    .lang-btn[aria-pressed="true"] {
+      background: var(--gold);
+      color: var(--green-ink);
+      font-weight: 600;
+    }
+
+    .lang-sep {
+      color: var(--gold-border);
+      user-select: none;
+      padding-inline: 0.1rem;
+    }
+
+    .header-book-btn {
+      display: none;
+      padding: 0.65rem 1.35rem;
+      font-size: 0.88rem;
+    }
+
+    @media (min-width: 640px) {
+      .header-book-btn {
+        display: inline-flex;
+      }
+    }
+
+    /* Mobile Hamburger Button */
+    .menu-toggle {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      border: 1px solid var(--gold-border);
+      color: var(--milk);
+      background: rgba(12, 33, 26, 0.45);
+      transition: border-color var(--dur-fast) var(--ease-silk);
+    }
+
+    .menu-toggle:hover {
+      border-color: var(--gold);
+    }
+
+    @media (min-width: 1024px) {
+      .menu-toggle {
+        display: none;
+      }
+    }
+
+    .menu-bars {
+      width: 20px;
+      height: 14px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .menu-bars span {
+      display: block;
+      width: 100%;
+      height: 1.5px;
+      background: var(--gold-light);
+      border-radius: 2px;
+      transition: transform var(--dur-fast) var(--ease-silk), opacity var(--dur-fast) var(--ease-silk);
+    }
+
+    .menu-toggle[aria-expanded="true"] .menu-bars span:nth-child(1) {
+      transform: translateY(6.2px) rotate(45deg);
+    }
+
+    .menu-toggle[aria-expanded="true"] .menu-bars span:nth-child(2) {
+      opacity: 0;
+    }
+
+    .menu-toggle[aria-expanded="true"] .menu-bars span:nth-child(3) {
+      transform: translateY(-6.2px) rotate(-45deg);
+    }
+
+    /* Mobile Full-Screen Menu Overlay */
+    .mobile-menu {
+      position: fixed;
+      inset: 0;
+      z-index: 1001;
+      background: var(--grad-dark);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: calc(var(--header-h) + 2rem) 2rem 2.5rem;
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transition:
+        opacity var(--dur-med) var(--ease-silk),
+        visibility var(--dur-med) var(--ease-silk);
+    }
+
+    .mobile-menu.is-open {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+    }
+
+    .mobile-nav-list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.4rem;
+      margin-bottom: 2.5rem;
+      text-align: center;
+    }
+
+    .mobile-nav-link {
+      font-family: var(--font-heading);
+      font-size: clamp(1.85rem, 6vw, 2.5rem);
+      color: var(--milk);
+      transition: color var(--dur-fast) var(--ease-silk);
+    }
+
+    .mobile-nav-link:hover {
+      color: var(--gold);
+    }
+
+    .mobile-menu-footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      border-top: 1px solid var(--gold-border);
+      padding-top: 1.75rem;
+      width: min(100%, 320px);
+      text-align: center;
+    }
+
+    .mobile-menu-phone {
+      color: var(--gold-light);
+      font-size: 1.05rem;
+      direction: ltr;
+      unicode-bidi: embed;
+    }
+
+    /* ==========================================================================
+       6. HERO SECTION & FLOATING GLASS BOOKING BAR
+       ========================================================================== */
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      min-height: 100svh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-top: calc(var(--header-h) + 2.5rem);
+      padding-bottom: 5.5rem;
+      color: var(--milk);
+      overflow: hidden;
+      background-color: var(--green-darker);
+    }
+
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+      overflow: hidden;
+    }
+
+    .hero-bg img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 45%;
+      transform: scale(1.1);
+      transition:
+        transform 3.6s var(--ease-silk),
+        opacity var(--dur-med) var(--ease-silk);
+      opacity: 0;
+    }
+
+    .hero-bg img.is-loaded {
+      opacity: 1;
+      transform: scale(1);
+    }
+
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: var(--grad-hero-overlay);
+      z-index: 1;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 820px;
+      margin-inline: auto;
+      text-align: center;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.65rem;
+      padding: 0.45rem 1.15rem;
+      border-radius: var(--radius-pill);
+      border: 1px solid var(--gold-border-strong);
+      background: rgba(12, 33, 26, 0.48);
+      backdrop-filter: blur(8px);
+      color: var(--gold-light);
+      font-size: 0.8rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      margin-bottom: 1.5rem;
+    }
+
+    html[dir="rtl"] .hero-badge {
+      letter-spacing: 0.02em;
+      font-size: 0.9rem;
+    }
+
+    .hero-title {
+      font-family: var(--font-heading);
+      font-weight: 500;
+      font-size: clamp(2.65rem, 6.2vw, 4.85rem);
+      line-height: 1.08;
+      margin-bottom: 1.35rem;
+      color: var(--milk);
+    }
+
+    html[dir="rtl"] .hero-title {
+      line-height: 1.28;
+    }
+
+    .hero-subtitle {
+      font-size: clamp(1.05rem, 1.8vw, 1.28rem);
+      color: var(--milk-soft);
+      max-width: 620px;
+      margin-inline: auto;
+      margin-bottom: 2.35rem;
+      font-weight: 300;
+    }
+
+    .hero-ctas {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    /* Floating Glass Booking Bar */
+    .booking-bar-wrap {
+      position: relative;
+      z-index: 10;
+      margin-top: -3.25rem;
+      margin-bottom: 1rem;
+    }
+
+    .booking-bar {
+      background: var(--glass-green);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid var(--gold-border-strong);
+      border-radius: var(--radius-lg);
+      padding: clamp(1.25rem, 3vw, 1.85rem);
+      box-shadow: var(--shadow-elevated);
+      color: var(--milk);
+    }
+
+    .booking-bar-form {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      align-items: end;
+    }
+
+    @media (min-width: 768px) {
+      .booking-bar-form {
+        grid-template-columns: repeat(3, 1fr);
+      }
+      .booking-bar-submit {
+        grid-column: 1 / -1;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .booking-bar-form {
+        grid-template-columns: 1fr 1fr 0.9fr auto;
+      }
+      .booking-bar-submit {
+        grid-column: auto;
+      }
+    }
+
+    .field-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+    }
+
+    .field-label {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--gold-light);
+      font-weight: 500;
+    }
+
+    html[dir="rtl"] .field-label {
+      letter-spacing: 0;
+      font-size: 0.85rem;
+    }
+
+    .field-input {
+      width: 100%;
+      padding: 0.78rem 1rem;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--gold-border);
+      background: rgba(12, 33, 26, 0.55);
+      color: var(--milk);
+      font-size: 0.95rem;
+      transition: border-color var(--dur-fast) var(--ease-silk), box-shadow var(--dur-fast) var(--ease-silk);
+      color-scheme: dark;
+    }
+
+    .field-input:focus {
+      border-color: var(--gold);
+      box-shadow: 0 0 0 3px rgba(201, 162, 75, 0.16);
+      outline: none;
+    }
+
+    .booking-bar-error {
+      grid-column: 1 / -1;
+      color: var(--gold-light);
+      font-size: 0.86rem;
+      display: none;
+      padding-top: 0.2rem;
+    }
+
+    .booking-bar-error.is-visible {
+      display: block;
+    }
+
+    /* ==========================================================================
+       7. ABOUT SECTION
+       ========================================================================== */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: clamp(2.5rem, 6vw, 4.5rem);
+      align-items: center;
+    }
+
+    @media (min-width: 960px) {
+      .about-grid {
+        grid-template-columns: 1.05fr 0.95fr;
+      }
+    }
+
+    .about-copy .eyebrow {
+      justify-content: flex-start;
+    }
+
+    .about-copy .eyebrow::before {
+      display: none;
+    }
+
+    .about-lead {
+      font-family: var(--font-heading);
+      font-size: clamp(1.35rem, 2.2vw, 1.7rem);
+      line-height: 1.45;
+      color: var(--green-deep);
+      margin-bottom: 1.25rem;
+      font-weight: 500;
+    }
+
+    .about-text {
+      color: var(--green-ink);
+      opacity: 0.88;
+      margin-bottom: 1.25rem;
+    }
+
+    .about-pillars {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+      padding-top: 1.75rem;
+      border-top: 1px solid var(--gold-border);
+    }
+
+    .about-pillar {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+    }
+
+    .about-pillar-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--gold);
+      margin-top: 0.45rem;
+      flex-shrink: 0;
+    }
+
+    .about-pillar-title {
+      font-weight: 600;
+      font-size: 0.95rem;
+      color: var(--green-deep);
+    }
+
+    /* Overlapping Dual Images with Gold Frame Line */
+    .about-visual {
+      position: relative;
+      padding-bottom: 3rem;
+      padding-inline-end: 2rem;
+    }
+
+    .about-img-main {
+      aspect-ratio: 4 / 5;
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-soft);
+      border: 1px solid var(--gold-border);
+    }
+
+    .about-img-main img {
+      object-position: center center;
+    }
+
+    .about-img-overlap {
+      position: absolute;
+      bottom: 0;
+      inset-inline-end: 0;
+      width: 56%;
+      aspect-ratio: 4 / 3;
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-elevated);
+      border: 2px solid var(--gold);
+      z-index: 3;
+    }
+
+    .about-img-overlap img {
+      object-position: 70% 35%;
+    }
+
+    .about-gold-frame {
+      position: absolute;
+      top: -14px;
+      inset-inline-start: -14px;
+      width: 75%;
+      height: 75%;
+      border: 1px solid var(--gold);
+      border-radius: var(--radius-lg);
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.65;
+    }
+
+    /* ==========================================================================
+       8. ROOMS & SUITES SECTION
+       ========================================================================== */
+    .rooms-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
+    @media (min-width: 700px) {
+      .rooms-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    .room-card {
+      background: rgba(12, 33, 26, 0.58);
+      border: 1px solid var(--gold-border);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition:
+        transform var(--dur-med) var(--ease-silk),
+        border-color var(--dur-fast) var(--ease-silk),
+        box-shadow var(--dur-med) var(--ease-silk);
+    }
+
+    .room-card:hover {
+      transform: translateY(-5px);
+      border-color: var(--gold);
+      box-shadow: var(--shadow-elevated);
+    }
+
+    .room-card-media {
+      aspect-ratio: 16 / 10;
+      border-radius: 0;
+      border-bottom: 1px solid var(--gold-border);
+    }
+
+    .room-card:hover .room-card-media img {
+      transform: scale(1.05);
+    }
+
+    .room-card-body {
+      padding: clamp(1.5rem, 3vw, 2.15rem);
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+
+    .room-tag {
+      font-size: 0.76rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--gold-light);
+      margin-bottom: 0.45rem;
+    }
+
+    html[dir="rtl"] .room-tag {
+      letter-spacing: 0;
+      font-size: 0.84rem;
+    }
+
+    .room-title {
+      font-family: var(--font-heading);
+      font-size: clamp(1.55rem, 2.4vw, 2rem);
+      font-weight: 500;
+      color: var(--milk);
+      margin-bottom: 0.75rem;
+    }
+
+    .room-desc {
+      color: var(--milk-soft);
+      font-size: 0.96rem;
+      margin-bottom: 1.65rem;
+      flex-grow: 1;
+      font-weight: 300;
+    }
+
+    .room-card-footer {
+      padding-top: 1.2rem;
+      border-top: 1px solid rgba(201, 162, 75, 0.18);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    /* ==========================================================================
+       9. AMENITIES SECTION
+       ========================================================================== */
+    .amenities-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.35rem;
+    }
+
+    @media (min-width: 560px) {
+      .amenities-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (min-width: 992px) {
+      .amenities-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    .amenity-card {
+      background: #ffffff;
+      border: 1px solid var(--gold-border);
+      border-radius: var(--radius-md);
+      padding: 1.75rem 1.5rem;
+      box-shadow: var(--shadow-soft);
+      transition:
+        transform var(--dur-fast) var(--ease-silk),
+        border-color var(--dur-fast) var(--ease-silk);
+    }
+
+    .amenity-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--gold);
+    }
+
+    .amenity-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 14px;
+      background: var(--gold-tint);
+      border: 1px solid var(--gold-border);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--gold);
+      margin-bottom: 1.15rem;
+    }
+
+    .amenity-icon svg {
+      width: 24px;
+      height: 24px;
+    }
+
+    .amenity-title {
+      font-family: var(--font-heading);
+      font-size: 1.35rem;
+      font-weight: 600;
+      color: var(--green-deep);
+      margin-bottom: 0.4rem;
+    }
+
+    .amenity-desc {
+      font-size: 0.9rem;
+      color: var(--green-ink);
+      opacity: 0.8;
+    }
+
+    /* ==========================================================================
+       10. MASONRY GALLERY & LIGHTBOX
+       ========================================================================== */
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+    }
+
+    @media (min-width: 640px) {
+      .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 230px;
+      }
+    }
+
+    @media (min-width: 992px) {
+      .gallery-grid {
+        grid-template-columns: repeat(12, 1fr);
+        grid-auto-rows: 250px;
+      }
+      .gallery-item:nth-child(1) { grid-column: span 7; grid-row: span 2; }
+      .gallery-item:nth-child(2) { grid-column: span 5; grid-row: span 1; }
+      .gallery-item:nth-child(3) { grid-column: span 5; grid-row: span 1; }
+      .gallery-item:nth-child(4) { grid-column: span 4; grid-row: span 1; }
+      .gallery-item:nth-child(5) { grid-column: span 4; grid-row: span 1; }
+      .gallery-item:nth-child(6) { grid-column: span 4; grid-row: span 1; }
+    }
+
+    .gallery-item {
+      position: relative;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--gold-border);
+      overflow: hidden;
+      cursor: pointer;
+      min-height: 250px;
+      padding: 0;
+      text-align: start;
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.05);
+    }
+
+    .gallery-caption-overlay {
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+      background: linear-gradient(180deg, transparent 45%, rgba(12, 33, 26, 0.86) 100%);
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      padding: 1.25rem 1.4rem;
+      color: var(--milk);
+      opacity: 0;
+      transition: opacity var(--dur-fast) var(--ease-silk);
+    }
+
+    .gallery-item:hover .gallery-caption-overlay,
+    .gallery-item:focus-visible .gallery-caption-overlay {
+      opacity: 1;
+    }
+
+    .gallery-caption-text {
+      font-family: var(--font-heading);
+      font-size: 1.2rem;
+      color: var(--milk);
+    }
+
+    .gallery-zoom-badge {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      border: 1px solid var(--gold);
+      background: rgba(20, 53, 42, 0.75);
+      color: var(--gold-light);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    /* Lightbox Modal */
+    .lightbox {
+      position: fixed;
+      inset: 0;
+      z-index: 2000;
+      background: rgba(12, 33, 26, 0.95);
+      backdrop-filter: blur(16px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transition: opacity var(--dur-fast) var(--ease-silk), visibility var(--dur-fast) var(--ease-silk);
+    }
+
+    .lightbox.is-open {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+    }
+
+    .lightbox-top {
+      position: absolute;
+      top: 1.25rem;
+      inset-inline: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: var(--milk);
+      z-index: 5;
+    }
+
+    .lightbox-counter {
+      font-size: 0.9rem;
+      color: var(--gold-light);
+      letter-spacing: 0.1em;
+    }
+
+    .lightbox-btn {
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      border: 1px solid var(--gold-border-strong);
+      background: rgba(20, 53, 42, 0.75);
+      color: var(--milk);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: all var(--dur-fast) var(--ease-silk);
+    }
+
+    .lightbox-btn:hover {
+      border-color: var(--gold);
+      color: var(--gold-light);
+      transform: scale(1.05);
+    }
+
+    .lightbox-stage {
+      position: relative;
+      width: min(100%, 980px);
+      max-height: 76vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .lightbox-img {
+      max-width: 100%;
+      max-height: 74vh;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--gold-border);
+      box-shadow: var(--shadow-elevated);
+      object-fit: contain;
+    }
+
+    .lightbox-nav {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 5;
+    }
+
+    .lightbox-prev {
+      inset-inline-start: 0.75rem;
+    }
+
+    .lightbox-next {
+      inset-inline-end: 0.75rem;
+    }
+
+    .lightbox-caption {
+      margin-top: 1.15rem;
+      color: var(--milk);
+      font-family: var(--font-heading);
+      font-size: 1.3rem;
+      text-align: center;
+    }
+
+    /* ==========================================================================
+       11. LOCATION & GOOGLE MAPS SECTION
+       ========================================================================== */
+    .location-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      align-items: stretch;
+    }
+
+    @media (min-width: 960px) {
+      .location-grid {
+        grid-template-columns: 0.95fr 1.05fr;
+      }
+    }
+
+    .location-card {
+      background: #ffffff;
+      border: 1px solid var(--gold-border);
+      border-radius: var(--radius-lg);
+      padding: clamp(1.75rem, 3.5vw, 2.75rem);
+      box-shadow: var(--shadow-soft);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 1.75rem;
+    }
+
+    .location-detail-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-top: 1.25rem;
+    }
+
+    .location-detail-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: 12px;
+      background: var(--gold-tint);
+      border: 1px solid var(--gold-border);
+      color: var(--gold);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .location-label {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--gold);
+      font-weight: 600;
+      margin-bottom: 0.2rem;
+    }
+
+    html[dir="rtl"] .location-label {
+      letter-spacing: 0;
+    }
+
+    .location-value {
+      font-size: 1.02rem;
+      color: var(--green-ink);
+      font-weight: 500;
+    }
+
+    .location-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.85rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--gold-border);
+    }
+
+    .map-frame-wrap {
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      border: 1px solid var(--gold-border);
+      box-shadow: var(--shadow-soft);
+      min-height: 360px;
+      background: var(--green-deep);
+      position: relative;
+    }
+
+    .map-frame-wrap iframe {
+      width: 100%;
+      height: 100%;
+      min-height: 360px;
+      border: 0;
+      display: block;
+    }
+
+    /* ==========================================================================
+       12. GUEST FEEDBACK PLACEHOLDER CAROUSEL
+       ========================================================================== */
+    .feedback-carousel {
+      max-width: 820px;
+      margin-inline: auto;
+      position: relative;
+    }
+
+    .feedback-viewport {
+      overflow: hidden;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--gold-border);
+      background: rgba(12, 33, 26, 0.55);
+      box-shadow: var(--shadow-elevated);
+    }
+
+    .feedback-slide {
+      display: none;
+      padding: clamp(2rem, 5vw, 3.5rem);
+      text-align: center;
+      animation: fadeSlide var(--dur-med) var(--ease-silk);
+    }
+
+    .feedback-slide.is-active {
+      display: block;
+    }
+
+    @keyframes fadeSlide {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .placeholder-pill {
+      display: inline-block;
+      padding: 0.3rem 0.9rem;
+      border-radius: var(--radius-pill);
+      border: 1px dashed var(--gold);
+      color: var(--gold-light);
+      font-size: 0.78rem;
+      margin-bottom: 1.35rem;
+    }
+
+    .feedback-quote {
+      font-family: var(--font-heading);
+      font-size: clamp(1.35rem, 2.5vw, 1.85rem);
+      line-height: 1.5;
+      color: var(--milk);
+      margin-bottom: 1.5rem;
+      font-style: italic;
+    }
+
+    html[dir="rtl"] .feedback-quote {
+      font-style: normal;
+    }
+
+    .feedback-meta {
+      color: var(--gold-light);
+      font-size: 0.92rem;
+      font-weight: 500;
+    }
+
+    .feedback-controls {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1.75rem;
+    }
+
+    .carousel-arrow {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      border: 1px solid var(--gold-border);
+      color: var(--milk);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: all var(--dur-fast) var(--ease-silk);
+    }
+
+    .carousel-arrow:hover {
+      border-color: var(--gold);
+      color: var(--gold-light);
+    }
+
+    .carousel-dots {
+      display: flex;
+      gap: 0.55rem;
+    }
+
+    .carousel-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: rgba(201, 162, 75, 0.3);
+      transition: all var(--dur-fast) var(--ease-silk);
+    }
+
+    .carousel-dot[aria-selected="true"] {
+      width: 28px;
+      border-radius: var(--radius-pill);
+      background: var(--gold);
+    }
+
+    /* ==========================================================================
+       13. CONTACT & WHATSAPP BOOKING FORM
+       ========================================================================== */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: clamp(2rem, 5vw, 3.5rem);
+      align-items: start;
+    }
+
+    @media (min-width: 960px) {
+      .contact-grid {
+        grid-template-columns: 0.88fr 1.12fr;
+      }
+    }
+
+    .contact-info-card {
+      background: var(--grad-dark);
+      color: var(--milk);
+      border-radius: var(--radius-lg);
+      padding: clamp(1.85rem, 3.5vw, 2.75rem);
+      border: 1px solid var(--gold-border);
+      box-shadow: var(--shadow-elevated);
+    }
+
+    .contact-info-title {
+      font-family: var(--font-heading);
+      font-size: clamp(1.75rem, 3vw, 2.25rem);
+      color: var(--milk);
+      margin-bottom: 0.75rem;
+    }
+
+    .contact-info-sub {
+      color: var(--milk-soft);
+      font-size: 0.95rem;
+      margin-bottom: 1.85rem;
+    }
+
+    .contact-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.35rem;
+      margin-bottom: 2rem;
+    }
+
+    .contact-list-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.95rem;
+    }
+
+    .contact-list-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 12px;
+      background: rgba(201, 162, 75, 0.14);
+      border: 1px solid var(--gold-border);
+      color: var(--gold-light);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .contact-reply-note {
+      padding: 1rem 1.15rem;
+      border-radius: var(--radius-sm);
+      background: rgba(201, 162, 75, 0.1);
+      border: 1px solid var(--gold-border);
+      font-size: 0.88rem;
+      color: var(--gold-light);
+    }
+
+    .contact-form-card {
+      background: #ffffff;
+      border: 1px solid var(--gold-border);
+      border-radius: var(--radius-lg);
+      padding: clamp(1.85rem, 4vw, 2.85rem);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+    }
+
+    @media (min-width: 640px) {
+      .form-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .form-col-full {
+        grid-column: 1 / -1;
+      }
+    }
+
+    .form-label {
+      display: block;
+      font-size: 0.84rem;
+      font-weight: 600;
+      color: var(--green-deep);
+      margin-bottom: 0.4rem;
+    }
+
+    .form-control {
+      width: 100%;
+      padding: 0.85rem 1rem;
+      border-radius: var(--radius-sm);
+      border: 1px solid rgba(20, 53, 42, 0.22);
+      background: var(--milk);
+      color: var(--green-ink);
+      font-size: 0.95rem;
+      transition: border-color var(--dur-fast) var(--ease-silk), box-shadow var(--dur-fast) var(--ease-silk);
+    }
+
+    .form-control:focus {
+      border-color: var(--gold);
+      box-shadow: 0 0 0 3px rgba(201, 162, 75, 0.2);
+      outline: none;
+    }
+
+    .form-control.is-invalid {
+      border-color: #b54434;
+    }
+
+    .field-error {
+      display: none;
+      color: #b54434;
+      font-size: 0.8rem;
+      margin-top: 0.35rem;
+    }
+
+    .field-error.is-visible {
+      display: block;
+    }
+
+    textarea.form-control {
+      min-height: 115px;
+      resize: vertical;
+    }
+
+    /* ==========================================================================
+       14. FOOTER & FLOATING WHATSAPP BUTTON
+       ========================================================================== */
+    .site-footer {
+      background: var(--grad-dark);
+      color: var(--milk);
+      border-top: 1px solid var(--gold-border);
+      padding-top: clamp(3.5rem, 6vw, 5rem);
+      padding-bottom: calc(2.5rem + env(safe-area-inset-bottom, 0px));
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2.5rem;
+      padding-bottom: 3rem;
+      border-bottom: 1px solid var(--gold-border);
+    }
+
+    @media (min-width: 768px) {
+      .footer-grid {
+        grid-template-columns: 1.3fr 0.85fr 1fr;
+      }
+    }
+
+    .footer-tagline {
+      color: var(--milk-soft);
+      font-size: 0.95rem;
+      max-width: 360px;
+      margin-top: 1rem;
+    }
+
+    .footer-heading {
+      font-family: var(--font-heading);
+      font-size: 1.35rem;
+      color: var(--gold-light);
+      margin-bottom: 1rem;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+
+    .footer-links a,
+    .footer-links button {
+      color: var(--milk-soft);
+      font-size: 0.92rem;
+      text-align: start;
+      width: fit-content;
+    }
+
+    .footer-links a:hover,
+    .footer-links button:hover {
+      color: var(--gold-light);
+    }
+
+    .footer-bottom {
+      padding-top: 1.75rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      font-size: 0.86rem;
+      color: var(--milk-muted);
+    }
+
+    .ltr-phone {
+      direction: ltr;
+      unicode-bidi: embed;
+      display: inline-block;
+    }
+
+    /* Floating WhatsApp Button (Mirrored in RTL via inset-inline-end) */
+    .floating-wa {
+      position: fixed;
+      bottom: calc(1.5rem + env(safe-area-inset-bottom, 0px));
+      inset-inline-end: calc(1.5rem + env(safe-area-inset-right, 0px));
+      z-index: 990;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: var(--grad-gold);
+      color: var(--green-ink);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: var(--shadow-gold);
+      transition: transform var(--dur-fast) var(--ease-silk);
+    }
+
+    .floating-wa::before {
+      content: "";
+      position: absolute;
+      inset: -6px;
+      border-radius: 50%;
+      border: 1.5px solid var(--gold);
+      opacity: 0;
+      animation: waPulse 2.8s var(--ease-silk) infinite;
+    }
+
+    @keyframes waPulse {
+      0% { transform: scale(0.92); opacity: 0.75; }
+      70% { transform: scale(1.22); opacity: 0; }
+      100% { transform: scale(1.22); opacity: 0; }
+    }
+
+    .floating-wa:hover {
+      transform: translateY(-3px) scale(1.04);
+    }
+
+    .floating-wa svg {
+      width: 28px;
+      height: 28px;
+    }
+
+    /* ==========================================================================
+       15. REDUCED MOTION ACCESSIBILITY
+       ========================================================================== */
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+      .reveal {
+        opacity: 1 !important;
+        transform: none !important;
+      }
+      .hero-bg img {
+        transform: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Accessibility Skip Link -->
+  <a href="#main-content" class="skip-link" data-i18n="skipLink">Skip to main content</a>
+
+  <!-- ==========================================================================
+       1. STICKY GLASS HEADER
+       ========================================================================== -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <!--
+        LOGO FILE INSTRUCTION:
+        Place your hotel logo image next to index.html and name it "logo.png".
+        If logo.png is missing or fails to load, the gold wordmark fallback below activates automatically.
+      -->
+      <a href="#hero" class="brand-logo" aria-label="Royal N.J Hotel & Resort">
+        <img
+          src="logo.png"
+          alt="Royal N.J Hotel & Resort Logo"
+          width="140"
+          height="52"
+          onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+        >
+        <span class="logo-fallback">
+          <span class="logo-fallback-main">Royal N.J</span>
+          <span class="logo-fallback-sub">HOTEL &amp; RESORT</span>
+        </span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav" aria-label="Primary Navigation">
+        <a href="#about" class="nav-link" data-i18n="nav.about">About</a>
+        <a href="#rooms" class="nav-link" data-i18n="nav.rooms">Rooms</a>
+        <a href="#amenities" class="nav-link" data-i18n="nav.amenities">Amenities</a>
+        <a href="#gallery" class="nav-link" data-i18n="nav.gallery">Gallery</a>
+        <a href="#location" class="nav-link" data-i18n="nav.location">Location</a>
+        <a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a>
+      </nav>
+
+      <!-- Language Switcher, Book CTA & Mobile Menu Toggle -->
+      <div class="header-actions">
+        <div class="lang-switcher" role="group" aria-label="Language switcher">
+          <button type="button" class="lang-btn" data-lang-switch="en" aria-pressed="true">EN</button>
+          <span class="lang-sep">|</span>
+          <button type="button" class="lang-btn" data-lang-switch="ar" aria-pressed="false">العربية</button>
+        </div>
+
+        <a href="#contact" class="btn btn-gold header-book-btn" data-i18n="nav.bookNow">Book now</a>
+
+        <button
+          type="button"
+          class="menu-toggle"
+          id="menu-toggle"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          aria-label="Toggle Menu"
+        >
+          <span class="menu-bars" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Full-Screen Forest-Green Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <nav aria-label="Mobile Navigation">
+      <ul class="mobile-nav-list">
+        <li><a href="#about" class="mobile-nav-link" data-i18n="nav.about">About</a></li>
+        <li><a href="#rooms" class="mobile-nav-link" data-i18n="nav.rooms">Rooms</a></li>
+        <li><a href="#amenities" class="mobile-nav-link" data-i18n="nav.amenities">Amenities</a></li>
+        <li><a href="#gallery" class="mobile-nav-link" data-i18n="nav.gallery">Gallery</a></li>
+        <li><a href="#location" class="mobile-nav-link" data-i18n="nav.location">Location</a></li>
+        <li><a href="#contact" class="mobile-nav-link" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="mobile-menu-footer">
+      <a href="#contact" class="btn btn-gold" data-i18n="nav.bookNow">Book now</a>
+      <a href="tel:+201271072843" class="mobile-menu-phone ltr-phone">+20 127 107 2843</a>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       MAIN CONTENT
+       ========================================================================== -->
+  <main id="main-content">
+
+    <!-- 2. HERO SECTION -->
+    <section class="hero" id="hero">
+      <div class="hero-bg">
+        <img
+          id="hero-img"
+          src="https://files.catbox.moe/9u1vpy.jpg"
+          alt="Royal N.J Hotel & Resort exterior and grounds"
+          width="1920"
+          height="1080"
+          fetchpriority="high"
+        >
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="container hero-content reveal">
+        <div class="hero-badge" data-i18n="hero.eyebrow">New Borg El Arab • Alexandria</div>
+        <h1 class="hero-title" data-i18n="hero.title">A Serene Royal Escape Along the Northern Coast</h1>
+        <p class="hero-subtitle" data-i18n="hero.subtitle">
+          Discover unhurried comfort, gracious Egyptian hospitality, and peaceful resort surroundings at Royal N.J Hotel &amp; Resort.
+        </p>
+        <div class="hero-ctas">
+          <a
+            href="https://wa.me/201271072843"
+            target="_blank"
+            rel="noopener noreferrer"
+            id="hero-wa-btn"
+            class="btn btn-gold"
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+            </svg>
+            <span data-i18n="hero.ctaWhatsapp">Book via WhatsApp</span>
+          </a>
+
+          <a href="tel:+201271072843" class="btn btn-outline-light">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+            <span data-i18n="hero.ctaCall">Call now</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FLOATING GLASS BOOKING BAR -->
+    <div class="container booking-bar-wrap reveal">
+      <div class="booking-bar">
+        <form id="quick-booking-form" class="booking-bar-form" novalidate>
+          <div class="field-group">
+            <label for="qb-checkin" class="field-label" data-i18n="bookingBar.checkIn">Check-in</label>
+            <input type="date" id="qb-checkin" class="field-input" required>
+          </div>
+
+          <div class="field-group">
+            <label for="qb-checkout" class="field-label" data-i18n="bookingBar.checkOut">Check-out</label>
+            <input type="date" id="qb-checkout" class="field-input" required>
+          </div>
+
+          <div class="field-group">
+            <label for="qb-guests" class="field-label" data-i18n="bookingBar.guests">Guests</label>
+            <select id="qb-guests" class="field-input">
+              <option value="1" data-i18n="bookingBar.guest1">1 Guest</option>
+              <option value="2" selected data-i18n="bookingBar.guest2">2 Guests</option>
+              <option value="3" data-i18n="bookingBar.guest3">3 Guests</option>
+              <option value="4+" data-i18n="bookingBar.guest4">4+ Guests / Family</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn btn-gold booking-bar-submit">
+            <span data-i18n="bookingBar.submit">Check availability</span>
+            <svg class="rtl-flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </button>
+
+          <p id="qb-error" class="booking-bar-error" role="alert"></p>
+        </form>
+      </div>
+    </div>
+
+    <!-- 3. ABOUT SECTION -->
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="about-copy reveal">
+          <span class="eyebrow" data-i18n="about.eyebrow">Welcome to Royal N.J</span>
+          <h2 class="section-title" data-i18n="about.title">Refined Tranquility &amp; Gracious Hospitality</h2>
+          <p class="about-lead" data-i18n="about.lead">
+            Set in the calm surroundings of New Borg El Arab City, Royal N.J Hotel &amp; Resort is designed as a peaceful sanctuary for travelers, couples, and families alike.
+          </p>
+          <p class="about-text" data-i18n="about.body">
+            Every corner of our resort reflects a dedication to quiet comfort and attentive care. Whether you are visiting for a restful retreat, a family gathering, or a calm stay near Alexandria’s western corridor, our team welcomes you with warmth and discretion.
+          </p>
+
+          <div class="about-pillars">
+            <div class="about-pillar">
+              <span class="about-pillar-dot" aria-hidden="true"></span>
+              <div>
+                <p class="about-pillar-title" data-i18n="about.pillar1">Peaceful Resort Setting</p>
+              </div>
+            </div>
+            <div class="about-pillar">
+              <span class="about-pillar-dot" aria-hidden="true"></span>
+              <div>
+                <p class="about-pillar-title" data-i18n="about.pillar2">24/7 Attentive Reception</p>
+              </div>
+            </div>
+            <div class="about-pillar">
+              <span class="about-pillar-dot" aria-hidden="true"></span>
+              <div>
+                <p class="about-pillar-title" data-i18n="about.pillar3">Warm Family Atmosphere</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-visual reveal">
+          <div class="about-gold-frame" aria-hidden="true"></div>
+          <div class="img-shell about-img-main">
+            <img
+              id="about-img-1"
+              src="https://files.catbox.moe/t2h8l3.jpg"
+              alt="Royal N.J Hotel & Resort architecture and tranquil setting"
+              width="800"
+              height="1000"
+              loading="lazy"
+            >
+          </div>
+          <div class="img-shell about-img-overlap">
+            <img
+              id="about-img-2"
+              src="https://files.catbox.moe/e8575t.jpg"
+              alt="Relaxing outdoor ambiance at Royal N.J Hotel & Resort"
+              width="600"
+              height="450"
+              loading="lazy"
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="gold-divider">
+
+    <!-- 4. ROOMS & SUITES SECTION -->
+    <section class="section section-dark" id="rooms">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow" data-i18n="rooms.eyebrow">Accommodations</span>
+          <h2 class="section-title" data-i18n="rooms.title">Rooms &amp; Suites Crafted for Rest</h2>
+          <p class="section-subtitle" data-i18n="rooms.subtitle">
+            Thoughtfully arranged spaces with soothing tones and essential comforts. Contact our reception directly on WhatsApp for tailored availability.
+          </p>
+        </div>
+
+        <!-- Populated dynamically from CONTENT.rooms -->
+        <div class="rooms-grid" id="rooms-grid"></div>
+      </div>
+    </section>
+
+    <hr class="gold-divider">
+
+    <!-- 5. AMENITIES SECTION -->
+    <section class="section" id="amenities">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow" data-i18n="amenities.eyebrow">Resort Comforts</span>
+          <h2 class="section-title" data-i18n="amenities.title">Thoughtful Amenities for an Effortless Stay</h2>
+          <p class="section-subtitle" data-i18n="amenities.subtitle">
+            Everything you need for a peaceful, well-cared-for experience from check-in to departure.
+          </p>
+        </div>
+
+        <!-- Populated dynamically from CONTENT.amenities -->
+        <div class="amenities-grid" id="amenities-grid"></div>
+      </div>
+    </section>
+
+    <hr class="gold-divider">
+
+    <!-- 6. GALLERY SECTION -->
+    <section class="section" id="gallery">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow" data-i18n="gallery.eyebrow">Visual Journey</span>
+          <h2 class="section-title" data-i18n="gallery.title">Glimpses of Royal N.J Hotel &amp; Resort</h2>
+          <p class="section-subtitle" data-i18n="gallery.subtitle">
+            Explore our grounds, architecture, and serene resort atmosphere. Select any image to view in full screen.
+          </p>
+        </div>
+
+        <!-- Populated dynamically from CONTENT.gallery (using strictly the 3 authentic hotel photos) -->
+        <div class="gallery-grid" id="gallery-grid"></div>
+      </div>
+    </section>
+
+    <hr class="gold-divider">
+
+    <!-- 7. LOCATION SECTION -->
+    <section class="section" id="location">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow" data-i18n="location.eyebrow">Find Us</span>
+          <h2 class="section-title" data-i18n="location.title">Our Location in New Borg El Arab</h2>
+          <p class="section-subtitle" data-i18n="location.subtitle">
+            Conveniently situated in New Borg El Arab City within Alexandria Governorate.
+          </p>
+        </div>
+
+        <div class="location-grid">
+          <div class="location-card reveal">
+            <div>
+              <h3 class="section-title" style="font-size: 1.85rem; margin-bottom: 0.5rem;">Royal N.J Hotel &amp; Resort</h3>
+              <p style="opacity: 0.8;" data-i18n="location.cardNote">
+                Reach out to our 24/7 reception team anytime for arrival assistance or directions.
+              </p>
+
+              <div class="location-detail-item">
+                <span class="location-detail-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </span>
+                <div>
+                  <p class="location-label" data-i18n="location.addressLabel">Address</p>
+                  <p class="location-value" id="location-address-text" data-i18n="hotel.address">
+                    Hod Sakrah WA Abu Hamad, New Borg El Arab City, Borg El Arab, Alexandria Governorate 5221570, Egypt
+                  </p>
+                </div>
+              </div>
+
+              <div class="location-detail-item">
+                <span class="location-detail-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                  </svg>
+                </span>
+                <div>
+                  <p class="location-label" data-i18n="location.phoneLabel">Phone &amp; WhatsApp</p>
+                  <p class="location-value">
+                    <a href="tel:+201271072843" class="ltr-phone">012 71072843</a>
+                    <span style="opacity: 0.65; font-size: 0.9rem;"> (<a href="tel:+201271072843" class="ltr-phone">+20 127 107 2843</a>)</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="location-actions">
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=Royal+N.J+Hotel+%26+Resort+Hod+Sakrah+WA+Abu+Hamad+Borg+El+Arab+Alexandria+5221570"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-gold"
+              >
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
+                </svg>
+                <span data-i18n="location.directionsBtn">Get directions</span>
+              </a>
+
+              <button type="button" id="copy-address-btn" class="btn btn-outline-gold">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                <span id="copy-address-label" data-i18n="location.copyBtn">Copy address</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="map-frame-wrap reveal">
+            <iframe
+              title="Google Map of Royal N.J Hotel & Resort, Borg El Arab, Alexandria"
+              src="https://www.google.com/maps?q=Royal+N.J+Hotel+%26+Resort,+Hod+Sakrah+WA+Abu+Hamad,+Borg+El+Arab,+Alexandria+5221570,+Egypt&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. GUEST FEEDBACK (EDITABLE PLACEHOLDER CAROUSEL) -->
+    <section class="section section-dark" id="feedback">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow" data-i18n="feedback.eyebrow">Guest Impressions</span>
+          <h2 class="section-title" data-i18n="feedback.title">Words from Our Guests</h2>
+          <p class="section-subtitle" data-i18n="feedback.subtitle">
+            Reserved slots for verified guest reflections. Replace directly in the configuration object at the top of the script.
+          </p>
+        </div>
+
+        <div class="feedback-carousel reveal" id="feedback-carousel" aria-roledescription="carousel">
+          <div class="feedback-viewport" id="feedback-slides" aria-live="polite">
+            <!-- Populated dynamically from CONTENT.feedbackPlaceholders -->
+          </div>
+
+          <div class="feedback-controls">
+            <button type="button" class="carousel-arrow" id="fb-prev" aria-label="Previous slide">
+              <svg class="rtl-flip" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="15 18 9 12 15 6"></polyline>
+              </svg>
+            </button>
+            <div class="carousel-dots" id="fb-dots" role="tablist" aria-label="Feedback slides"></div>
+            <button type="button" class="carousel-arrow" id="fb-next" aria-label="Next slide">
+              <svg class="rtl-flip" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. CONTACT & BOOKING SECTION -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow" data-i18n="contact.eyebrow">Direct Reservations</span>
+          <h2 class="section-title" data-i18n="contact.title">Plan Your Stay With Us</h2>
+          <p class="section-subtitle" data-i18n="contact.subtitle">
+            Send your inquiry directly to our reception via WhatsApp or call us any time.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <aside class="contact-info-card reveal">
+            <h3 class="contact-info-title" data-i18n="contact.cardTitle">Direct Reception Desk</h3>
+            <p class="contact-info-sub" data-i18n="contact.cardSub">
+              We handle all reservations and special requests personally to ensure a smooth arrival.
+            </p>
+
+            <div class="contact-list">
+              <div class="contact-list-item">
+                <span class="contact-list-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                  </svg>
+                </span>
+                <div>
+                  <p class="location-label" data-i18n="contact.phoneTitle">Telephone &amp; WhatsApp</p>
+                  <p><a href="tel:+201271072843" class="ltr-phone" style="color: var(--milk); font-weight: 600;">012 71072843</a></p>
+                  <p><a href="tel:+201271072843" class="ltr-phone" style="color: var(--milk-muted); font-size: 0.9rem;">+20 127 107 2843</a></p>
+                </div>
+              </div>
+
+              <div class="contact-list-item">
+                <span class="contact-list-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </span>
+                <div>
+                  <p class="location-label" data-i18n="contact.addressTitle">Hotel Address</p>
+                  <p style="color: var(--milk-soft); font-size: 0.95rem;" data-i18n="hotel.address">
+                    Hod Sakrah WA Abu Hamad, New Borg El Arab City, Borg El Arab, Alexandria Governorate 5221570, Egypt
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-reply-note" data-i18n="contact.replyNote">
+              Our reception is available 24/7. WhatsApp inquiries typically receive a prompt response from our front desk team.
+            </div>
+          </aside>
+
+          <div class="contact-form-card reveal">
+            <form id="contact-booking-form" novalidate>
+              <div class="form-grid">
+                <div>
+                  <label for="cf-name" class="form-label" data-i18n="contact.form.nameLabel">Full Name *</label>
+                  <input type="text" id="cf-name" class="form-control" required autocomplete="name">
+                  <p class="field-error" id="err-name" data-i18n="contact.form.errName">Please enter your name.</p>
+                </div>
+
+                <div>
+                  <label for="cf-phone" class="form-label" data-i18n="contact.form.phoneLabel">Phone Number *</label>
+                  <input type="tel" id="cf-phone" class="form-control" required autocomplete="tel">
+                  <p class="field-error" id="err-phone" data-i18n="contact.form.errPhone">Please enter a valid phone number.</p>
+                </div>
+
+                <div>
+                  <label for="cf-checkin" class="form-label" data-i18n="contact.form.checkinLabel">Check-in Date *</label>
+                  <input type="date" id="cf-checkin" class="form-control" required>
+                  <p class="field-error" id="err-dates" data-i18n="contact.form.errDates">Please choose valid check-in and check-out dates.</p>
+                </div>
+
+                <div>
+                  <label for="cf-checkout" class="form-label" data-i18n="contact.form.checkoutLabel">Check-out Date *</label>
+                  <input type="date" id="cf-checkout" class="form-control" required>
+                </div>
+
+                <div>
+                  <label for="cf-guests" class="form-label" data-i18n="contact.form.guestsLabel">Number of Guests</label>
+                  <select id="cf-guests" class="form-control">
+                    <option value="1" data-i18n="bookingBar.guest1">1 Guest</option>
+                    <option value="2" selected data-i18n="bookingBar.guest2">2 Guests</option>
+                    <option value="3" data-i18n="bookingBar.guest3">3 Guests</option>
+                    <option value="4+" data-i18n="bookingBar.guest4">4+ Guests / Family</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label for="cf-room" class="form-label" data-i18n="contact.form.roomLabel">Preferred Room</label>
+                  <select id="cf-room" class="form-control">
+                    <!-- Populated dynamically from CONTENT.rooms -->
+                  </select>
+                </div>
+
+                <div class="form-col-full">
+                  <label for="cf-message" class="form-label" data-i18n="contact.form.messageLabel">Special Requests or Questions</label>
+                  <textarea id="cf-message" class="form-control"></textarea>
+                </div>
+
+                <div class="form-col-full">
+                  <button type="submit" class="btn btn-gold" style="width: 100%;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+                    </svg>
+                    <span data-i18n="contact.form.submitBtn">Send Booking Inquiry via WhatsApp</span>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       10. FOOTER IN DEEP FOREST GREEN
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <!-- Place logo.png next to index.html -->
+          <a href="#hero" class="brand-logo" aria-label="Royal N.J Hotel & Resort">
+            <img
+              src="logo.png"
+              alt="Royal N.J Hotel & Resort Logo"
+              width="140"
+              height="52"
+              loading="lazy"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+            >
+            <span class="logo-fallback">
+              <span class="logo-fallback-main">Royal N.J</span>
+              <span class="logo-fallback-sub">HOTEL &amp; RESORT</span>
+            </span>
+          </a>
+          <p class="footer-tagline" data-i18n="footer.tagline">
+            Calm royal hospitality and restful stays in New Borg El Arab City, Alexandria Governorate.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="footer-heading" data-i18n="footer.exploreTitle">Explore</h3>
+          <ul class="footer-links">
+            <li><a href="#about" data-i18n="nav.about">About</a></li>
+            <li><a href="#rooms" data-i18n="nav.rooms">Rooms</a></li>
+            <li><a href="#amenities" data-i18n="nav.amenities">Amenities</a></li>
+            <li><a href="#gallery" data-i18n="nav.gallery">Gallery</a></li>
+            <li><a href="#location" data-i18n="nav.location">Location</a></li>
+            <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-heading" data-i18n="footer.contactTitle">Contact &amp; Language</h3>
+          <ul class="footer-links">
+            <li data-i18n="hotel.address">
+              Hod Sakrah WA Abu Hamad, New Borg El Arab City, Borg El Arab, Alexandria Governorate 5221570, Egypt
+            </li>
+            <li>
+              <a href="tel:+201271072843" class="ltr-phone">012 71072843 (+20 127 107 2843)</a>
+            </li>
+            <li>
+              <a href="https://wa.me/201271072843" target="_blank" rel="noopener noreferrer" data-i18n="footer.whatsappLink">
+                Chat on WhatsApp
+              </a>
+            </li>
+            <li style="padding-top: 0.5rem; display: flex; gap: 0.75rem;">
+              <button type="button" data-lang-switch="en">English</button>
+              <span style="color: var(--gold);">•</span>
+              <button type="button" data-lang-switch="ar">العربية</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          &copy; <span id="current-year"></span> Royal N.J Hotel &amp; Resort.
+          <span data-i18n="footer.rights">All rights reserved.</span>
+        </p>
+        <p>
+          <a href="tel:+201271072843" class="ltr-phone">+20 127 107 2843</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       FLOATING WHATSAPP BUTTON
+       ========================================================================== -->
+  <a
+    href="https://wa.me/201271072843"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="floating-wa"
+    id="floating-wa"
+    aria-label="Contact Royal N.J Hotel & Resort on WhatsApp"
+  >
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+    </svg>
+  </a>
+
+  <!-- ==========================================================================
+       GALLERY LIGHTBOX MODAL
+       ========================================================================== -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Image Gallery Lightbox">
+    <div class="lightbox-top">
+      <span class="lightbox-counter" id="lightbox-counter">1 / 6</span>
+      <button type="button" class="lightbox-btn" id="lightbox-close" aria-label="Close gallery">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+
+    <div class="lightbox-stage" id="lightbox-stage">
+      <button type="button" class="lightbox-btn lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Previous image">
+        <svg class="rtl-flip" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
+      </button>
+
+      <img src="https://files.catbox.moe/9u1vpy.jpg" alt="" class="lightbox-img" id="lightbox-img">
+
+      <button type="button" class="lightbox-btn lightbox-nav lightbox-next" id="lightbox-next" aria-label="Next image">
+        <svg class="rtl-flip" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </button>
+    </div>
+
+    <p class="lightbox-caption" id="lightbox-caption"></p>
+  </div>
+
+  <!-- ==========================================================================
+       JAVASCRIPT: SINGLE EDITABLE CONTENT OBJECT & INTERACTIONS
+       ========================================================================== -->
+  <script>
+    /**
+     * ============================================================================
+     * EDITABLE HOTEL CONFIGURATION & TRANSLATIONS OBJECT
+     * Keep all editable copy, room descriptions, amenities, and review slots here.
+     * ============================================================================
+     */
+    const CONTENT = {
+      hotel: {
+        name: "Royal N.J Hotel & Resort",
+        phoneDisplay: "012 71072843",
+        phoneIntl: "+20 127 107 2843",
+        phoneTel: "tel:+201271072843",
+        whatsappUrl: "https://wa.me/201271072843",
+        photos: [
+          "https://files.catbox.moe/9u1vpy.jpg",
+          "https://files.catbox.moe/t2h8l3.jpg",
+          "https://files.catbox.moe/e8575t.jpg"
+        ]
+      },
+
+      en: {
+        meta: {
+          title: "Royal N.J Hotel & Resort | New Borg El Arab, Alexandria",
+          description: "Experience calm royal hospitality at Royal N.J Hotel & Resort in New Borg El Arab City, Alexandria Governorate, Egypt. Book directly via WhatsApp or phone."
+        },
+        skipLink: "Skip to main content",
+        hotel: {
+          address: "Hod Sakrah WA Abu Hamad, New Borg El Arab City, Borg El Arab, Alexandria Governorate 5221570, Egypt"
+        },
+        nav: {
+          about: "About",
+          rooms: "Rooms",
+          amenities: "Amenities",
+          gallery: "Gallery",
+          location: "Location",
+          contact: "Contact",
+          bookNow: "Book now"
+        },
+        hero: {
+          eyebrow: "New Borg El Arab • Alexandria",
+          title: "A Serene Royal Escape Along the Northern Coast",
+          subtitle: "Discover unhurried comfort, gracious Egyptian hospitality, and peaceful resort surroundings at Royal N.J Hotel & Resort.",
+          ctaWhatsapp: "Book via WhatsApp",
+          ctaCall: "Call now",
+          imgAlt: "Royal N.J Hotel & Resort exterior view and peaceful surroundings"
+        },
+        bookingBar: {
+          checkIn: "Check-in",
+          checkOut: "Check-out",
+          guests: "Guests",
+          guest1: "1 Guest",
+          guest2: "2 Guests",
+          guest3: "3 Guests",
+          guest4: "4+ Guests / Family",
+          submit: "Check availability",
+          dateError: "Please select both check-in and check-out dates (check-out must be after check-in)."
+        },
+        about: {
+          eyebrow: "Welcome to Royal N.J",
+          title: "Refined Tranquility & Gracious Hospitality",
+          lead: "Set in the calm surroundings of New Borg El Arab City, Royal N.J Hotel & Resort is designed as a peaceful sanctuary for travelers, couples, and families alike.",
+          body: "Every corner of our resort reflects a dedication to quiet comfort and attentive care. Whether you are visiting for a restful retreat, a family gathering, or a calm stay near Alexandria’s western corridor, our team welcomes you with warmth and discretion.",
+          pillar1: "Peaceful Resort Setting",
+          pillar2: "24/7 Attentive Reception",
+          pillar3: "Warm Family Atmosphere",
+          img1Alt: "Architectural view of Royal N.J Hotel & Resort",
+          img2Alt: "Serene resort grounds at Royal N.J Hotel & Resort"
+        },
+        rooms: {
+          eyebrow: "Accommodations",
+          title: "Rooms & Suites Crafted for Rest",
+          subtitle: "Thoughtfully arranged spaces with soothing tones and essential comforts. Contact our reception directly on WhatsApp for tailored availability.",
+          askBtn: "Ask about this room",
+          /* EDITABLE PLACEHOLDER ROOM DESCRIPTIONS */
+          items: [
+            {
+              id: "standard",
+              tag: "Comfort & Calm",
+              name: "Standard Room",
+              description: "[Editable Room Description] A tranquil, air-conditioned room designed for restful nights, featuring comfortable bedding, Wi-Fi access, and daily housekeeping.",
+              image: "https://files.catbox.moe/9u1vpy.jpg",
+              objectPosition: "center 60%",
+              alt: "Standard Room accommodation at Royal N.J Hotel & Resort"
+            },
+            {
+              id: "deluxe",
+              tag: "Spacious Retreat",
+              name: "Deluxe Room",
+              description: "[Editable Room Description] Offering generous living space and a soothing resort ambiance, ideal for guests seeking extra room to unwind during their stay.",
+              image: "https://files.catbox.moe/t2h8l3.jpg",
+              objectPosition: "center 40%",
+              alt: "Deluxe Room setting at Royal N.J Hotel & Resort"
+            },
+            {
+              id: "family",
+              tag: "Shared Moments",
+              name: "Family Suite",
+              description: "[Editable Room Description] Thoughtfully arranged for families, providing a welcoming layout with ample space for a relaxed and comfortable group stay.",
+              image: "https://files.catbox.moe/e8575t.jpg",
+              objectPosition: "center 50%",
+              alt: "Family Suite accommodation at Royal N.J Hotel & Resort"
+            },
+            {
+              id: "royal",
+              tag: "Signature Stay",
+              name: "Royal Suite",
+              description: "[Editable Room Description] Our most refined accommodation option, combining generous proportions with quiet privacy and attentive service.",
+              image: "https://files.catbox.moe/9u1vpy.jpg",
+              objectPosition: "25% 35%",
+              alt: "Royal Suite experience at Royal N.J Hotel & Resort"
+            }
+          ]
+        },
+        amenities: {
+          eyebrow: "Resort Comforts",
+          title: "Thoughtful Amenities for an Effortless Stay",
+          subtitle: "Everything you need for a peaceful, well-cared-for experience from check-in to departure.",
+          /* EDITABLE AMENITIES LIST */
+          items: [
+            { icon: "wifi", title: "Wi-Fi", desc: "Wireless internet connectivity available for guests." },
+            { icon: "ac", title: "Air Conditioning", desc: "Climate-controlled comfort in guest rooms and indoor spaces." },
+            { icon: "reception", title: "24/7 Reception", desc: "Round-the-clock front desk assistance and guest support." },
+            { icon: "parking", title: "Parking", desc: "Convenient on-site parking space for arriving guests." },
+            { icon: "restaurant", title: "Restaurant", desc: "On-site dining serving freshly prepared dishes in a calm setting." },
+            { icon: "resort", title: "Resort Atmosphere", desc: "Open, tranquil surroundings designed for unhurried relaxation." },
+            { icon: "cleaning", title: "Cleaning Service", desc: "Attentive housekeeping to keep your room fresh and immaculate." },
+            { icon: "family", title: "Family Friendly", desc: "A welcoming, safe, and comfortable environment for families." }
+          ]
+        },
+        gallery: {
+          eyebrow: "Visual Journey",
+          title: "Glimpses of Royal N.J Hotel & Resort",
+          subtitle: "Explore our grounds, architecture, and serene resort atmosphere. Select any image to view in full screen.",
+          items: [
+            {
+              src: "https://files.catbox.moe/9u1vpy.jpg",
+              pos: "center center",
+              caption: "Royal N.J Hotel & Resort — Exterior & Grounds",
+              alt: "Wide view of Royal N.J Hotel & Resort exterior"
+            },
+            {
+              src: "https://files.catbox.moe/t2h8l3.jpg",
+              pos: "center 35%",
+              caption: "Calm Architectural Lines & Resort Atmosphere",
+              alt: "Resort architecture at Royal N.J Hotel & Resort"
+            },
+            {
+              src: "https://files.catbox.moe/e8575t.jpg",
+              pos: "center center",
+              caption: "Evening Tranquility & Outdoor Spaces",
+              alt: "Outdoor spaces at Royal N.J Hotel & Resort"
+            },
+            {
+              src: "https://files.catbox.moe/9u1vpy.jpg",
+              pos: "left 70%",
+              caption: "Welcoming Pathways & Resort Surroundings",
+              alt: "Detailed crop of resort pathways at Royal N.J Hotel & Resort"
+            },
+            {
+              src: "https://files.catbox.moe/t2h8l3.jpg",
+              pos: "right 65%",
+              caption: "Refined Details & Peaceful Setting",
+              alt: "Architectural detail of Royal N.J Hotel & Resort"
+            },
+            {
+              src: "https://files.catbox.moe/e8575t.jpg",
+              pos: "30% 30%",
+              caption: "A Restful Sanctuary in New Borg El Arab",
+              alt: "Relaxing resort ambiance at Royal N.J Hotel & Resort"
+            }
+          ]
+        },
+        location: {
+          eyebrow: "Find Us",
+          title: "Our Location in New Borg El Arab",
+          subtitle: "Conveniently situated in New Borg El Arab City within Alexandria Governorate.",
+          cardNote: "Reach out to our 24/7 reception team anytime for arrival assistance or directions.",
+          addressLabel: "Address",
+          phoneLabel: "Phone & WhatsApp",
+          directionsBtn: "Get directions",
+          copyBtn: "Copy address",
+          copiedBtn: "Address copied ✓"
+        },
+        feedback: {
+          eyebrow: "Guest Impressions",
+          title: "Words from Our Guests",
+          subtitle: "Reserved slots for verified guest reflections. Replace directly in the configuration object at the top of the script.",
+          /* EDITABLE PLACEHOLDER REVIEW SLOTS — Replace with real verified guest reviews */
+          placeholders: [
+            {
+              badge: "Editable Review Slot #1",
+              quote: "[Placeholder: Replace this text in CONTENT.en.feedback.placeholders with a real verified guest review about their stay and hospitality experience.]",
+              meta: "Verified Guest Placeholder • Room / Stay Type"
+            },
+            {
+              badge: "Editable Review Slot #2",
+              quote: "[Placeholder: Replace this text in CONTENT.en.feedback.placeholders with a real verified guest review highlighting the calm atmosphere and service.]",
+              meta: "Verified Guest Placeholder • Family / Couple Stay"
+            },
+            {
+              badge: "Editable Review Slot #3",
+              quote: "[Placeholder: Replace this text in CONTENT.en.feedback.placeholders with a real verified guest comment regarding comfort and cleanliness.]",
+              meta: "Verified Guest Placeholder • Resort Visitor"
+            }
+          ]
+        },
+        contact: {
+          eyebrow: "Direct Reservations",
+          title: "Plan Your Stay With Us",
+          subtitle: "Send your inquiry directly to our reception via WhatsApp or call us any time.",
+          cardTitle: "Direct Reception Desk",
+          cardSub: "We handle all reservations and special requests personally to ensure a smooth arrival.",
+          phoneTitle: "Telephone & WhatsApp",
+          addressTitle: "Hotel Address",
+          replyNote: "Our reception is available 24/7. WhatsApp inquiries typically receive a prompt response from our front desk team.",
+          form: {
+            nameLabel: "Full Name *",
+            phoneLabel: "Phone Number *",
+            checkinLabel: "Check-in Date *",
+            checkoutLabel: "Check-out Date *",
+            guestsLabel: "Number of Guests",
+            roomLabel: "Preferred Room",
+            anyRoomOption: "Any Available Room",
+            messageLabel: "Special Requests or Questions",
+            submitBtn: "Send Booking Inquiry via WhatsApp",
+            errName: "Please enter your full name.",
+            errPhone: "Please enter a valid phone number.",
+            errDates: "Please choose valid check-in and check-out dates."
+          }
+        },
+        footer: {
+          tagline: "Calm royal hospitality and restful stays in New Borg El Arab City, Alexandria Governorate.",
+          exploreTitle: "Explore",
+          contactTitle: "Contact & Language",
+          whatsappLink: "Chat on WhatsApp",
+          rights: "All rights reserved."
+        },
+        whatsappTemplates: {
+          general: "Hello Royal N.J Hotel & Resort, I would like to inquire about booking a stay.",
+          quickBar: (checkIn, checkOut, guests) =>
+            `Hello Royal N.J Hotel & Resort,\nI would like to check availability:\n• Check-in: ${checkIn}\n• Check-out: ${checkOut}\n• Guests: ${guests}\nThank you.`,
+          roomAsk: (roomName) =>
+            `Hello Royal N.J Hotel & Resort, I would like to inquire about availability and details for the ${roomName}.`,
+          contactForm: (data) =>
+            `Hello Royal N.J Hotel & Resort,\nNew Booking Inquiry:\n• Name: ${data.name}\n• Phone: ${data.phone}\n• Check-in: ${data.checkIn}\n• Check-out: ${data.checkOut}\n• Guests: ${data.guests}\n• Preferred Room: ${data.room}\n• Notes: ${data.message || "None"}`
+        }
+      },
+
+      ar: {
+        meta: {
+          title: "فندق ومنتجع رويال إن جي | Royal N.J Hotel & Resort - برج العرب الجديدة",
+          description: "استمتع بإقامة ملكية هادئة وضيافة راقية في فندق ومنتجع رويال إن جي بمدينة برج العرب الجديدة، محافظة الإسكندرية. احجز مباشرة عبر واتساب أو الهاتف."
+        },
+        skipLink: "انتقل إلى المحتوى الرئيسي",
+        hotel: {
+          address: "مدينة برج العرب الجديدة - مرسى مطروح, Hod Sakrah WA Abu Hamad, Borg El Arab, Alexandria Governorate 5221570"
+        },
+        nav: {
+          about: "عن الفندق",
+          rooms: "الغرف والأجنحة",
+          amenities: "المرافق والخدمات",
+          gallery: "معرض الصور",
+          location: "الموقع",
+          contact: "تواصل معنا",
+          bookNow: "احجز الآن"
+        },
+        hero: {
+          eyebrow: "مدينة برج العرب الجديدة • الإسكندرية",
+          title: "ملاذ ملكي هادئ يجمع بين الفخامة والسكينة",
+          subtitle: "اختبر معنى الراحة الحقيقية والضيافة المصرية الأصيلة في أجواء منتجع هادئة ومريحة في فندق ومنتجع رويال إن جي.",
+          ctaWhatsapp: "احجز عبر واتساب",
+          ctaCall: "اتصل الآن",
+          imgAlt: "إطلالة خارجية لفندق ومنتجع رويال إن جي بمدينة برج العرب الجديدة"
+        },
+        bookingBar: {
+          checkIn: "تاريخ الوصول",
+          checkOut: "تاريخ المغادرة",
+          guests: "عدد الضيوف",
+          guest1: "ضيف واحد",
+          guest2: "ضيفان",
+          guest3: "3 ضيوف",
+          guest4: "4 ضيوف أو أكثر / عائلة",
+          submit: "تحقق من الإتاحة",
+          dateError: "يرجى تحديد تاريخي الوصول والمغادرة بشكل صحيح (تاريخ المغادرة بعد تاريخ الوصول)."
+        },
+        about: {
+          eyebrow: "أهلاً بكم في رويال إن جي",
+          title: "سكينة راقية وضيافة تليق بكم",
+          lead: "يقع فندق ومنتجع رويال إن جي في قلب الأجواء الهادئة بمدينة برج العرب الجديدة، ليكون وجهة مثالية للباحثين عن الاسترخاء والخصوصية للأفراد والعائلات.",
+          body: "صُممت جميع تفاصيل المنتجع لتمنح ضيوفنا شعوراً بالراحة والهدوء منذ لحظة الوصول. سواء كنت تخطط لعطلة هادئة بعيداً عن صخب المدينة أو إقامة عائلية مميزة، فإن فريقنا يسعد بخدمتكم على مدار الساعة بعناية وترحيب.",
+          pillar1: "أجواء منتجع هادئة",
+          pillar2: "استقبال وخدمة 24/7",
+          pillar3: "بيئة مثالية للعائلات",
+          img1Alt: "التصميم المعماري والأجواء الهادئة في فندق ومنتجع رويال إن جي",
+          img2Alt: "المساحات الخارجية المريحة في فندق ومنتجع رويال إن جي"
+        },
+        rooms: {
+          eyebrow: "الإقامة الفندقية",
+          title: "غرف وأجنحة مصممة لراحتكم",
+          subtitle: "مساحات مريحة بتفاصيل هادئة تلبي تطلعاتكم. تواصلوا مع قسم الاستقبال مباشرة عبر واتساب لمعرفة الإتاحة والتفاصيل.",
+          askBtn: "استفسر عن هذه الغرفة",
+          /* نصوص الغرف قابلة للتعديل بسهولة */
+          items: [
+            {
+              id: "standard",
+              tag: "راحة وهدوء",
+              name: "غرفة ستاندرد (Standard Room)",
+              description: "[نص قابل للتعديل] غرفة هادئة ومكيفة الهواء مصممة لإقامة مريحة، مجهزة بإنترنت لاسلكي وخدمة تنظيف منتظمة.",
+              image: "https://files.catbox.moe/9u1vpy.jpg",
+              objectPosition: "center 60%",
+              alt: "غرفة ستاندرد في فندق ومنتجع رويال إن جي"
+            },
+            {
+              id: "deluxe",
+              tag: "رحابة واسترخاء",
+              name: "غرفة ديلوكس (Deluxe Room)",
+              description: "[نص قابل للتعديل] توفر مساحة أوسع وأجواءً هادئة تمنح الضيوف مزيداً من الخصوصية والراحة طوال فترة الإقامة.",
+              image: "https://files.catbox.moe/t2h8l3.jpg",
+              objectPosition: "center 40%",
+              alt: "غرفة ديلوكس في فندق ومنتجع رويال إن جي"
+            },
+            {
+              id: "family",
+              tag: "أوقات عائلية",
+              name: "جناح عائلي (Family Suite)",
+              description: "[نص قابل للتعديل] جناح مخصص للعائلات يوفر توزيعاً مريحاً ومساحة رحبة تضمن إقامة دافئة وممتعة لجميع أفراد الأسرة.",
+              image: "https://files.catbox.moe/e8575t.jpg",
+              objectPosition: "center 50%",
+              alt: "جناح عائلي في فندق ومنتجع رويال إن جي"
+            },
+            {
+              id: "royal",
+              tag: "إقامة ملكية",
+              name: "الجناح الملكي (Royal Suite)",
+              description: "[نص قابل للتعديل] خيارنا الأرقى للإقامة الفندقية، يجمع بين المساحة الواسعة والهدوء التام والاهتمام بأدق التفاصيل.",
+              image: "https://files.catbox.moe/9u1vpy.jpg",
+              objectPosition: "25% 35%",
+              alt: "الجناح الملكي في فندق ومنتجع رويال إن جي"
+            }
+          ]
+        },
+        amenities: {
+          eyebrow: "وسائل الراحة",
+          title: "مرافق متكاملة لإقامة هادئة وميسّرة",
+          subtitle: "كل ما تحتاجونه لإقامة مريحة ومخدومة بعناية منذ لحظة وصولكم وحتى المغادرة.",
+          /* قائمة المرافق قابلة للتعديل */
+          items: [
+            { icon: "wifi", title: "واي فاي (Wi-Fi)", desc: "اتصال بالإنترنت اللاسلكي متاح لضيوف الفندق." },
+            { icon: "ac", title: "تكييف هواء", desc: "تحكم مريح بدرجة الحرارة في الغرف والمرافق الداخلية." },
+            { icon: "reception", title: "استقبال 24/7", desc: "مكتب استقبال يعمل على مدار الساعة لخدمتكم وتلبية طلباتكم." },
+            { icon: "parking", title: "موقف سيارات", desc: "أماكن مخصصة لوقوف سيارات الضيوف بسهولة وأمان." },
+            { icon: "restaurant", title: "مطعم", desc: "تقديم وجبات طازجة في أجواء هادئة ومريحة." },
+            { icon: "resort", title: "أجواء منتجع هادئة", desc: "مساحات مفتوحة وإطلالات مريحة تبعث على السكينة والاستجمام." },
+            { icon: "cleaning", title: "خدمة تنظيف الغرف", desc: "عناية مستمرة بنظافة وترتيب الغرف لضمان راحتكم." },
+            { icon: "family", title: "مناسب للعائلات", desc: "بيئة آمنة ومرحبة توفر الراحة والخصوصية للعائلات." }
+          ]
+        },
+        gallery: {
+          eyebrow: "جولة مصورة",
+          title: "لقطات من فندق ومنتجع رويال إن جي",
+          subtitle: "تعرّف على أجواء المنتجع والتصميم المعماري الهادئ. اضغط على أي صورة لعرضها بالحجم الكامل.",
+          items: [
+            {
+              src: "https://files.catbox.moe/9u1vpy.jpg",
+              pos: "center center",
+              caption: "فندق ومنتجع رويال إن جي — الواجهة والمساحات المحيطة",
+              alt: "واجهة فندق ومنتجع رويال إن جي بمدينة برج العرب الجديدة"
+            },
+            {
+              src: "https://files.catbox.moe/t2h8l3.jpg",
+              pos: "center 35%",
+              caption: "تفاصيل معمارية راقية وأجواء منتجع هادئة",
+              alt: "التصميم المعماري في فندق ومنتجع رويال إن جي"
+            },
+            {
+              src: "https://files.catbox.moe/e8575t.jpg",
+              pos: "center center",
+              caption: "سكينة المساء والمساحات الخارجية",
+              alt: "الأجواء المسائية في فندق ومنتجع رويال إن جي"
+            },
+            {
+              src: "https://files.catbox.moe/9u1vpy.jpg",
+              pos: "left 70%",
+              caption: "ممرات هادئة ومحيط مريح للأعصاب",
+              alt: "ممرات فندق ومنتجع رويال إن جي"
+            },
+            {
+              src: "https://files.catbox.moe/t2h8l3.jpg",
+              pos: "right 65%",
+              caption: "خصوصية تامة وإقامة مريحة",
+              alt: "تفاصيل مبنى فندق ومنتجع رويال إن جي"
+            },
+            {
+              src: "https://files.catbox.moe/e8575t.jpg",
+              pos: "30% 30%",
+              caption: "ملاذ هادئ في مدينة برج العرب الجديدة",
+              alt: "مساحات الاسترخاء في فندق ومنتجع رويال إن جي"
+            }
+          ]
+        },
+        location: {
+          eyebrow: "موقعنا",
+          title: "موقع الفندق في برج العرب الجديدة",
+          subtitle: "موقع مميز يسهل الوصول إليه في مدينة برج العرب الجديدة بمحافظة الإسكندرية.",
+          cardNote: "فريق الاستقبال متواجد على مدار الساعة لإرشادكم ومساعدتكم عند الوصول.",
+          addressLabel: "العنوان",
+          phoneLabel: "الهاتف وواتساب",
+          directionsBtn: "الاتجاهات على الخريطة",
+          copyBtn: "نسخ العنوان",
+          copiedBtn: "تم نسخ العنوان ✓"
+        },
+        feedback: {
+          eyebrow: "انطباعات الضيوف",
+          title: "آراء وتجارب ضيوفنا",
+          subtitle: "مساحات مخصصة لإضافة تقييمات الضيوف الحقيقية مباشرة من كائن الإعدادات أعلى الكود.",
+          /* خانات مخصصة لتقييمات الضيوف الحقيقية — قابلة للتعديل */
+          placeholders: [
+            {
+              badge: "خانة تقييم قابلة للتعديل #1",
+              quote: "[نص تجريبي قابل للتعديل: استبدل هذا النص بتقييم حقيقي من أحد ضيوف الفندق حول مستوى الضيافة والراحة.]",
+              meta: "اسم الضيف (قابل للتعديل) • نوع الإقامة"
+            },
+            {
+              badge: "خانة تقييم قابلة للتعديل #2",
+              quote: "[نص تجريبي قابل للتعديل: استبدل هذا النص بتقييم حقيقي يوضح تجربة الإقامة الهادئة والخدمة في المنتجع.]",
+              meta: "اسم الضيف (قابل للتعديل) • إقامة عائلية"
+            },
+            {
+              badge: "خانة تقييم قابلة للتعديل #3",
+              quote: "[نص تجريبي قابل للتعديل: استبدل هذا النص بانطباع حقيقي حول نظافة الغرف وتعاون فريق الاستقبال.]",
+              meta: "اسم الضيف (قابل للتعديل) • زائر الفندق"
+            }
+          ]
+        },
+        contact: {
+          eyebrow: "الحجز المباشر",
+          title: "خطط لإقامتك معنا",
+          subtitle: "أرسل طلب الحجز أو الاستفسار مباشرة عبر واتساب أو تواصل معنا هاتفياً في أي وقت.",
+          cardTitle: "مكتب الاستقبال والحجز",
+          cardSub: "نتابع كافة الحجوزات والطلبات الخاصة بشكل مباشر لضمان راحتكم منذ لحظة الوصول.",
+          phoneTitle: "الهاتف وواتساب",
+          addressTitle: "عنوان الفندق",
+          replyNote: "يعمل مكتب الاستقبال على مدار 24 ساعة طوال أيام الأسبوع، ويتم الرد على رسائل واتساب بسرعة واهتمام.",
+          form: {
+            nameLabel: "الاسم الكامل *",
+            phoneLabel: "رقم الهاتف *",
+            checkinLabel: "تاريخ الوصول *",
+            checkoutLabel: "تاريخ المغادرة *",
+            guestsLabel: "عدد الضيوف",
+            roomLabel: "الغرفة المفضلة",
+            anyRoomOption: "أي غرفة متاحة",
+            messageLabel: "ملاحظات أو طلبات إضافية",
+            submitBtn: "إرسال طلب الحجز عبر واتساب",
+            errName: "يرجى إدخال الاسم الكامل.",
+            errPhone: "يرجى إدخال رقم هاتف صحيح.",
+            errDates: "يرجى اختيار تاريخي وصول ومغادرة صحيحين."
+          }
+        },
+        footer: {
+          tagline: "ضيافة ملكية هادئة وإقامة مريحة في مدينة برج العرب الجديدة، محافظة الإسكندرية.",
+          exploreTitle: "روابط سريعة",
+          contactTitle: "التواصل واللغة",
+          whatsappLink: "تواصل عبر واتساب",
+          rights: "جميع الحقوق محفوظة."
+        },
+        whatsappTemplates: {
+          general: "مرحباً فندق ومنتجع رويال إن جي، أود الاستفسار عن حجز إقامة.",
+          quickBar: (checkIn, checkOut, guests) =>
+            `مرحباً فندق ومنتجع رويال إن جي،\nأود التحقق من الإتاحة:\n• تاريخ الوصول: ${checkIn}\n• تاريخ المغادرة: ${checkOut}\n• عدد الضيوف: ${guests}\nشكراً لكم.`,
+          roomAsk: (roomName) =>
+            `مرحباً فندق ومنتجع رويال إن جي، أود الاستفسار عن الإتاحة والتفاصيل الخاصة بـ: ${roomName}.`,
+          contactForm: (data) =>
+            `مرحباً فندق ومنتجع رويال إن جي،\nطلب حجز جديد:\n• الاسم: ${data.name}\n• الهاتف: ${data.phone}\n• تاريخ الوصول: ${data.checkIn}\n• تاريخ المغادرة: ${data.checkOut}\n• عدد الضيوف: ${data.guests}\n• الغرفة المفضلة: ${data.room}\n• ملاحظات: ${data.message || "لا يوجد"}`
+        }
+      }
+    };
+
+    /* ============================================================================
+       INLINE SVG ICONS FOR AMENITIES
+       ============================================================================ */
+    const AMENITY_ICONS = {
+      wifi: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>`,
+      ac: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h20"/><path d="M20 16v4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-4"/><path d="M4 8V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v2"/><path d="M8 16c0 2.5-2 3-2 3"/><path d="M12 16v4"/><path d="M16 16c0 2.5 2 3 2 3"/></svg>`,
+      reception: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/><line x1="12" y1="2" x2="12" y2="4"/></svg>`,
+      parking: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M9 17V7h4a3 3 0 0 1 0 6H9"/></svg>`,
+      restaurant: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/></svg>`,
+      resort: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v3"/><path d="M18.36 5.64l-2.12 2.12"/><path d="M5.64 5.64l2.12 2.12"/><path d="M3 12h3"/><path d="M18 12h3"/><path d="M8 14a4 4 0 0 1 8 0"/><path d="M2 18c2 0 2-1 4-1s2 1 4 1 2-1 4-1 2 1 4 1 2-1 4-1"/><path d="M2 22c2 0 2-1 4-1s2 1 4 1 2-1 4-1 2 1 4 1 2-1 4-1"/></svg>`,
+      cleaning: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/><path d="M5 3v4"/><path d="M3 5h4"/></svg>`,
+      family: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>`
+    };
+
+    /* ============================================================================
+       APPLICATION STATE & INITIALIZATION
+       ============================================================================ */
+    let currentLang = "en";
+    let currentFeedbackIndex = 0;
+    let currentLightboxIndex = 0;
+    let revealObserver = null;
+
+    // Helper: Get nested property by dot path
+    function getByPath(obj, path) {
+      return path.split(".").reduce((acc, part) => (acc && acc[part] !== undefined ? acc[part] : null), obj);
+    }
+
+    // Helper: Setup image load state for soft green placeholder fade-in
+    function bindImageLoad(imgEl) {
+      if (!imgEl) return;
+      if (imgEl.complete && imgEl.naturalWidth > 0) {
+        imgEl.classList.add("is-loaded");
+      } else {
+        imgEl.addEventListener("load", () => imgEl.classList.add("is-loaded"), { once: true });
+      }
+    }
+
+    // Helper: Observe reveal elements on scroll
+    function observeReveals() {
+      const elements = document.querySelectorAll(".reveal:not(.is-visible)");
+      if (!("IntersectionObserver" in window)) {
+        elements.forEach((el) => el.classList.add("is-visible"));
+        return;
+      }
+      if (!revealObserver) {
+        revealObserver = new IntersectionObserver(
+          (entries, obs) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("is-visible");
+                obs.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.12, rootMargin: "0px 0px -40px 0px" }
+        );
+      }
+      elements.forEach((el) => revealObserver.observe(el));
+    }
+
+    /* ============================================================================
+       DYNAMIC SECTION RENDERERS
+       ============================================================================ */
+    function renderRooms(dict) {
+      const grid = document.getElementById("rooms-grid");
+      const roomSelect = document.getElementById("cf-room");
+      grid.innerHTML = "";
+      roomSelect.innerHTML = "";
+
+      const anyOpt = document.createElement("option");
+      anyOpt.value = dict.contact.form.anyRoomOption;
+      anyOpt.textContent = dict.contact.form.anyRoomOption;
+      roomSelect.appendChild(anyOpt);
+
+      dict.rooms.items.forEach((room) => {
+        // Populate select dropdown
+        const opt = document.createElement("option");
+        opt.value = room.name;
+        opt.textContent = room.name;
+        roomSelect.appendChild(opt);
+
+        // Build Room Card
+        const article = document.createElement("article");
+        article.className = "room-card reveal";
+
+        const waMsg = encodeURIComponent(dict.whatsappTemplates.roomAsk(room.name));
+        const waHref = `${CONTENT.hotel.whatsappUrl}?text=${waMsg}`;
+
+        article.innerHTML = `
+          <div class="img-shell room-card-media">
+            <img
+              src="${room.image}"
+              alt="${room.alt}"
+              width="720"
+              height="450"
+              loading="lazy"
+              style="object-position: ${room.objectPosition};"
+            >
+          </div>
+          <div class="room-card-body">
+            <span class="room-tag">${room.tag}</span>
+            <h3 class="room-title">${room.name}</h3>
+            <p class="room-desc">${room.description}</p>
+            <div class="room-card-footer">
+              <a href="${waHref}" target="_blank" rel="noopener noreferrer" class="btn btn-outline-gold" style="width: 100%;">
+                <span>${dict.rooms.askBtn}</span>
+                <svg class="rtl-flip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+        `;
+
+        grid.appendChild(article);
+        bindImageLoad(article.querySelector("img"));
+      });
+    }
+
+    function renderAmenities(dict) {
+      const grid = document.getElementById("amenities-grid");
+      grid.innerHTML = "";
+
+      dict.amenities.items.forEach((item) => {
+        const card = document.createElement("div");
+        card.className = "amenity-card reveal";
+        card.innerHTML = `
+          <div class="amenity-icon" aria-hidden="true">
+            ${AMENITY_ICONS[item.icon] || AMENITY_ICONS.resort}
+          </div>
+          <h3 class="amenity-title">${item.title}</h3>
+          <p class="amenity-desc">${item.desc}</p>
+        `;
+        grid.appendChild(card);
+      });
+    }
+
+    function renderGallery(dict) {
+      const grid = document.getElementById("gallery-grid");
+      grid.innerHTML = "";
+
+      dict.gallery.items.forEach((item, index) => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "img-shell gallery-item reveal";
+        btn.setAttribute("aria-label", item.caption);
+        btn.innerHTML = `
+          <img
+            src="${item.src}"
+            alt="${item.alt}"
+            width="800"
+            height="600"
+            loading="lazy"
+            style="object-position: ${item.pos};"
+          >
+          <div class="gallery-caption-overlay">
+            <span class="gallery-caption-text">${item.caption}</span>
+            <span class="gallery-zoom-badge" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <polyline points="9 21 3 21 3 15"></polyline>
+                <line x1="21" y1="3" x2="14" y2="10"></line>
+                <line x1="3" y1="21" x2="10" y2="14"></line>
+              </svg>
+            </span>
+          </div>
+        `;
+        btn.addEventListener("click", () => openLightbox(index));
+        grid.appendChild(btn);
+        bindImageLoad(btn.querySelector("img"));
+      });
+    }
+
+    function renderFeedback(dict) {
+      const slidesContainer = document.getElementById("feedback-slides");
+      const dotsContainer = document.getElementById("fb-dots");
+      slidesContainer.innerHTML = "";
+      dotsContainer.innerHTML = "";
+
+      dict.feedback.placeholders.forEach((slot, idx) => {
+        const slide = document.createElement("div");
+        slide.className = `feedback-slide ${idx === currentFeedbackIndex ? "is-active" : ""}`;
+        slide.setAttribute("role", "tabpanel");
+        slide.innerHTML = `
+          <span class="placeholder-pill">${slot.badge}</span>
+          <blockquote class="feedback-quote">"${slot.quote}"</blockquote>
+          <p class="feedback-meta">${slot.meta}</p>
+        `;
+        slidesContainer.appendChild(slide);
+
+        const dot = document.createElement("button");
+        dot.type = "button";
+        dot.className = "carousel-dot";
+        dot.setAttribute("role", "tab");
+        dot.setAttribute("aria-label", `${ idx + 1 }`);
+        dot.setAttribute("aria-selected", idx === currentFeedbackIndex ? "true" : "false");
+        dot.addEventListener("click", () => goToFeedbackSlide(idx));
+        dotsContainer.appendChild(dot);
+      });
+    }
+
+    function goToFeedbackSlide(index) {
+      const slides = document.querySelectorAll(".feedback-slide");
+      const dots = document.querySelectorAll(".carousel-dot");
+      if (!slides.length) return;
+      currentFeedbackIndex = (index + slides.length) % slides.length;
+      slides.forEach((s, i) => s.classList.toggle("is-active", i === currentFeedbackIndex));
+      dots.forEach((d, i) => d.setAttribute("aria-selected", i === currentFeedbackIndex ? "true" : "false"));
+    }
+
+    /* ============================================================================
+       LANGUAGE SWITCHER & RTL SUPPORT
+       ============================================================================ */
+    function applyLanguage(lang) {
+      currentLang = lang === "ar" ? "ar" : "en";
+      const dict = CONTENT[currentLang];
+      const htmlEl = document.documentElement;
+
+      htmlEl.setAttribute("lang", currentLang);
+      htmlEl.setAttribute("dir", currentLang === "ar" ? "rtl" : "ltr");
+
+      // Update SEO Meta tags
+      document.title = dict.meta.title;
+      document.getElementById("meta-desc").setAttribute("content", dict.meta.description);
+      document.getElementById("og-title").setAttribute("content", dict.meta.title);
+      document.getElementById("og-desc").setAttribute("content", dict.meta.description);
+
+      // Update all static elements with data-i18n
+      document.querySelectorAll("[data-i18n]").forEach((el) => {
+        const key = el.getAttribute("data-i18n");
+        const val = getByPath(dict, key);
+        if (val) el.textContent = val;
+      });
+
+      // Update static image alt texts in current language
+      document.getElementById("hero-img").setAttribute("alt", dict.hero.imgAlt);
+      document.getElementById("about-img-1").setAttribute("alt", dict.about.img1Alt);
+      document.getElementById("about-img-2").setAttribute("alt", dict.about.img2Alt);
+
+      // Update Hero & Floating WhatsApp links with prefilled greeting
+      const generalWa = `${CONTENT.hotel.whatsappUrl}?text=${encodeURIComponent(dict.whatsappTemplates.general)}`;
+      document.getElementById("hero-wa-btn").setAttribute("href", generalWa);
+      document.getElementById("floating-wa").setAttribute("href", generalWa);
+
+      // Update Language Toggle Buttons state
+      document.querySelectorAll("[data-lang-switch]").forEach((btn) => {
+        const isCurrent = btn.getAttribute("data-lang-switch") === currentLang;
+        btn.setAttribute("aria-pressed", isCurrent ? "true" : "false");
+      });
+
+      // Re-render dynamic lists
+      renderRooms(dict);
+      renderAmenities(dict);
+      renderGallery(dict);
+      renderFeedback(dict);
+      observeReveals();
+    }
+
+    /* ============================================================================
+       LIGHTBOX MODAL LOGIC (Keyboard + Touch Swipe)
+       ============================================================================ */
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImg = document.getElementById("lightbox-img");
+    const lightboxCaption = document.getElementById("lightbox-caption");
+    const lightboxCounter = document.getElementById("lightbox-counter");
+
+    function updateLightboxSlide() {
+      const items = CONTENT[currentLang].gallery.items;
+      const item = items[currentLightboxIndex];
+      if (!item) return;
+      lightboxImg.src = item.src;
+      lightboxImg.alt = item.alt;
+      lightboxCaption.textContent = item.caption;
+      lightboxCounter.textContent = `${currentLightboxIndex + 1} / ${items.length}`;
+    }
+
+    function openLightbox(index) {
+      currentLightboxIndex = index;
+      updateLightboxSlide();
+      lightbox.classList.add("is-open");
+      lightbox.setAttribute("aria-hidden", "false");
+      document.body.classList.add("lightbox-open");
+      document.getElementById("lightbox-close").focus();
+    }
+
+    function closeLightbox() {
+      lightbox.classList.remove("is-open");
+      lightbox.setAttribute("aria-hidden", "true");
+      document.body.classList.remove("lightbox-open");
+    }
+
+    function stepLightbox(delta) {
+      const items = CONTENT[currentLang].gallery.items;
+      currentLightboxIndex = (currentLightboxIndex + delta + items.length) % items.length;
+      updateLightboxSlide();
+    }
+
+    /* ============================================================================
+       DOM CONTENT LOADED: EVENT LISTENERS & INITIALIZATION
+       ============================================================================ */
+    document.addEventListener("DOMContentLoaded", () => {
+      // Set current copyright year
+      document.getElementById("current-year").textContent = new Date().getFullYear();
+
+      // Bind static images for soft green placeholder fade-in
+      bindImageLoad(document.getElementById("hero-img"));
+      bindImageLoad(document.getElementById("about-img-1"));
+      bindImageLoad(document.getElementById("about-img-2"));
+
+      // Set minimum date on date inputs to today
+      const todayStr = new Date().toISOString().split("T")[0];
+      ["qb-checkin", "qb-checkout", "cf-checkin", "cf-checkout"].forEach((id) => {
+        const input = document.getElementById(id);
+        if (input) input.setAttribute("min", todayStr);
+      });
+
+      // Detect browser language on load (Arabic browsers get Arabic, everything else English)
+      const urlParams = new URLSearchParams(window.location.search);
+      const paramLang = urlParams.get("lang");
+      const browserLang = (navigator.language || (navigator.languages && navigator.languages[0]) || "en").toLowerCase();
+      const initialLang = paramLang === "ar" || paramLang === "en"
+        ? paramLang
+        : browserLang.startsWith("ar") ? "ar" : "en";
+
+      applyLanguage(initialLang);
+
+      // Language Switcher Click Handlers
+      document.querySelectorAll("[data-lang-switch]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          applyLanguage(btn.getAttribute("data-lang-switch"));
+        });
+      });
+
+      // Sticky Header Scroll Elevation
+      const header = document.getElementById("site-header");
+      window.addEventListener("scroll", () => {
+        header.classList.toggle("is-scrolled", window.scrollY > 24);
+      }, { passive: true });
+
+      // Mobile Full-Screen Menu Toggle
+      const menuToggle = document.getElementById("menu-toggle");
+      const mobileMenu = document.getElementById("mobile-menu");
+
+      function closeMobileMenu() {
+        menuToggle.setAttribute("aria-expanded", "false");
+        mobileMenu.classList.remove("is-open");
+        mobileMenu.setAttribute("aria-hidden", "true");
+        document.body.classList.remove("menu-open");
+      }
+
+      menuToggle.addEventListener("click", () => {
+        const isOpen = menuToggle.getAttribute("aria-expanded") === "true";
+        if (isOpen) {
+          closeMobileMenu();
+        } else {
+          menuToggle.setAttribute("aria-expanded", "true");
+          mobileMenu.classList.add("is-open");
+          mobileMenu.setAttribute("aria-hidden", "false");
+          document.body.classList.add("menu-open");
+        }
+      });
+
+      mobileMenu.querySelectorAll("a").forEach((link) => {
+        link.addEventListener("click", closeMobileMenu);
+      });
+
+      // Quick Booking Bar Submit
+      const quickForm = document.getElementById("quick-booking-form");
+      const qbError = document.getElementById("qb-error");
+
+      quickForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+        const checkIn = document.getElementById("qb-checkin").value;
+        const checkOut = document.getElementById("qb-checkout").value;
+        const guestsSelect = document.getElementById("qb-guests");
+        const guestsText = guestsSelect.options[guestsSelect.selectedIndex].text;
+        const dict = CONTENT[currentLang];
+
+        if (!checkIn || !checkOut || checkOut <= checkIn) {
+          qbError.textContent = dict.bookingBar.dateError;
+          qbError.classList.add("is-visible");
+          return;
+        }
+        qbError.classList.remove("is-visible");
+        const msg = dict.whatsappTemplates.quickBar(checkIn, checkOut, guestsText);
+        window.open(`${CONTENT.hotel.whatsappUrl}?text=${encodeURIComponent(msg)}`, "_blank", "noopener,noreferrer");
+      });
+
+      // Copy Address Button
+      const copyBtn = document.getElementById("copy-address-btn");
+      const copyLabel = document.getElementById("copy-address-label");
+      copyBtn.addEventListener("click", () => {
+        const addressText = CONTENT[currentLang].hotel.address;
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(addressText).then(() => {
+            copyLabel.textContent = CONTENT[currentLang].location.copiedBtn;
+            setTimeout(() => {
+              copyLabel.textContent = CONTENT[currentLang].location.copyBtn;
+            }, 2600);
+          });
+        }
+      });
+
+      // Feedback Carousel Controls & Touch Swipe
+      document.getElementById("fb-prev").addEventListener("click", () => goToFeedbackSlide(currentFeedbackIndex - 1));
+      document.getElementById("fb-next").addEventListener("click", () => goToFeedbackSlide(currentFeedbackIndex + 1));
+
+      let fbTouchStartX = 0;
+      const fbViewport = document.getElementById("feedback-slides");
+      fbViewport.addEventListener("touchstart", (e) => { fbTouchStartX = e.changedTouches[0].screenX; }, { passive: true });
+      fbViewport.addEventListener("touchend", (e) => {
+        const diff = e.changedTouches[0].screenX - fbTouchStartX;
+        if (Math.abs(diff) > 45) {
+          goToFeedbackSlide(diff < 0 ? currentFeedbackIndex + 1 : currentFeedbackIndex - 1);
+        }
+      }, { passive: true });
+
+      // Lightbox Events (Buttons, Escape, Arrows, Swipe)
+      document.getElementById("lightbox-close").addEventListener("click", closeLightbox);
+      document.getElementById("lightbox-prev").addEventListener("click", () => stepLightbox(-1));
+      document.getElementById("lightbox-next").addEventListener("click", () => stepLightbox(1));
+
+      lightbox.addEventListener("click", (e) => {
+        if (e.target === lightbox) closeLightbox();
+      });
+
+      window.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") {
+          if (lightbox.classList.contains("is-open")) closeLightbox();
+          if (mobileMenu.classList.contains("is-open")) closeMobileMenu();
+        }
+        if (lightbox.classList.contains("is-open")) {
+          if (e.key === "ArrowRight") stepLightbox(currentLang === "ar" ? -1 : 1);
+          if (e.key === "ArrowLeft") stepLightbox(currentLang === "ar" ? 1 : -1);
+        }
+      });
+
+      let lbTouchStartX = 0;
+      const lbStage = document.getElementById("lightbox-stage");
+      lbStage.addEventListener("touchstart", (e) => { lbTouchStartX = e.changedTouches[0].screenX; }, { passive: true });
+      lbStage.addEventListener("touchend", (e) => {
+        const diff = e.changedTouches[0].screenX - lbTouchStartX;
+        if (Math.abs(diff) > 45) {
+          stepLightbox(diff < 0 ? 1 : -1);
+        }
+      }, { passive: true });
+
+      // Contact & Booking Form Friendly Inline Validation + WhatsApp Submit
+      const contactForm = document.getElementById("contact-booking-form");
+      contactForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+        const nameInput = document.getElementById("cf-name");
+        const phoneInput = document.getElementById("cf-phone");
+        const checkinInput = document.getElementById("cf-checkin");
+        const checkoutInput = document.getElementById("cf-checkout");
+        const guestsSelect = document.getElementById("cf-guests");
+        const roomSelect = document.getElementById("cf-room");
+        const messageInput = document.getElementById("cf-message");
+
+        const errName = document.getElementById("err-name");
+        const errPhone = document.getElementById("err-phone");
+        const errDates = document.getElementById("err-dates");
+
+        let valid = true;
+
+        if (!nameInput.value.trim()) {
+          nameInput.classList.add("is-invalid");
+          errName.classList.add("is-visible");
+          valid = false;
+        } else {
+          nameInput.classList.remove("is-invalid");
+          errName.classList.remove("is-visible");
+        }
+
+        if (phoneInput.value.trim().length < 7) {
+          phoneInput.classList.add("is-invalid");
+          errPhone.classList.add("is-visible");
+          valid = false;
+        } else {
+          phoneInput.classList.remove("is-invalid");
+          errPhone.classList.remove("is-visible");
+        }
+
+        if (!checkinInput.value || !checkoutInput.value || checkoutInput.value <= checkinInput.value) {
+          checkinInput.classList.add("is-invalid");
+          checkoutInput.classList.add("is-invalid");
+          errDates.classList.add("is-visible");
+          valid = false;
+        } else {
+          checkinInput.classList.remove("is-invalid");
+          checkoutInput.classList.remove("is-invalid");
+          errDates.classList.remove("is-visible");
+        }
+
+        if (!valid) return;
+
+        const dict = CONTENT[currentLang];
+        const msg = dict.whatsappTemplates.contactForm({
+          name: nameInput.value.trim(),
+          phone: phoneInput.value.trim(),
+          checkIn: checkinInput.value,
+          checkOut: checkoutInput.value,
+          guests: guestsSelect.options[guestsSelect.selectedIndex].text,
+          room: roomSelect.value,
+          message: messageInput.value.trim()
+        });
+
+        window.open(`${CONTENT.hotel.whatsappUrl}?text=${encodeURIComponent(msg)}`, "_blank", "noopener,noreferrer");
+      });
+    });
+  </script>
+</body>
+</html>
